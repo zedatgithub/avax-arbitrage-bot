@@ -1,0 +1,31 @@
+{
+    "bannedTokens": [
+        "0x6e7f5c0b9f4432716bdd0a77a3601291b9d9e985",
+        "0x37427c72f3534d854ee462d18f42ad5fbe74aa2b",
+        "0x21336b7459e70764ddc44811cf03e0ca86d26d29",
+        "0xacd7b3d9c10e97d0efa418903c0c7669e702e4c0",
+        "0x894aa2d0d3e63471c5ffbd22a8a95c8476826cf9",
+        "0x88c090496125b751b4e3ce4d3fdb8e47dd079c57",
+        "0x564a341df6c126f90cf3ecb92120fd7190acb401",
+        "0x45cdaf3fd17bd31d9830fa977159162dd2431683",
+        "0xf9a075c9647e91410bf6c402bdf166e1540f67f0",
+        "0xb9cd294a96e14b0d7b855e36385e8292f428c289",
+        "0x2841a8a2ce98a9d21ad8c3b7fc481527569bd7bb",
+        "0x440abbf18c54b2782a4917b80a1746d3a2c2cce1",
+        "0x3ab71ca6da13e50ab4966e3a0566d1b6b118c4ae"
+    ],
+    "providerUrl": "https://api.avax.network/ext/bc/C/rpc",
+    "traderAddress": "0x786928938157fFA1DE674e6AE246033a80C14547",
+    "simulatorAddress": "0x83059eB87D7c0aDf67fcd6b721E3Db8279c71153",
+    "multicall": "0x86eBA893BF7bd0AF17C3F2b5B00FA1177F5fe1Bb",
+    "strategies": [
+        {
+            "description": "WAVAX 2",
+            "startToken": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+            "endToken": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+            "minProfit": "0.009",
+            "breakProfit": "0.2",
+            "maxLength": 3
+        }
+    ]
+}

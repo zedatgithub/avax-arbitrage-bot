@@ -1,0 +1,1634 @@
+{
+  "data": {
+    "pairs": [
+      {
+        "__typename": "Pair",
+        "id": "0x2612da8fc26efbca3cc3f8fd543bcba72b10ab59",
+        "reserve0": "6158.0873175321312532",
+        "reserve1": "285825.960296901403313444",
+        "reserveUSD": "1402783.43288486032029463962043564",
+        "token0": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "34116.273984652075156221",
+        "trackedReserveETH": "12316.1746350642625064",
+        "volumeUSD": "52229895.07560222125779417664283091"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xfebf47cf89f766e6c24317b17f862ba5d4d82f8c",
+        "reserve0": "1407.994952027749048273",
+        "reserve1": "61210.629290686764650847",
+        "reserveUSD": "315651.4685596739252966200927264425",
+        "token0": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c8f3d529bea8e3fa1fac5b416335a2f998ee1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "8413.139402027929917739",
+        "trackedReserveETH": "2815.989904055498096546000000000001",
+        "volumeUSD": "6455558.948038040041110858163413742"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x1aeb1def5b064df8e4470e57af17df72961a9ef8",
+        "reserve0": "73165.019346",
+        "reserve1": "29746.760231690186787319",
+        "reserveUSD": "146500.178261470069514616741263148",
+        "token0": {
+          "decimals": "6",
+          "id": "0xc7198437980c041c805a1edcba50c1ce5db95118",
+          "name": "Tether USD",
+          "symbol": "USDT.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "0.04222049572253059",
+        "trackedReserveETH": "1286.244004055334647839835031905344",
+        "volumeUSD": "2324404.034779562451404342374231004"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x27f382534916520f178bf9e201db4cd8172cc7d2",
+        "reserve0": "60309.373966633630860985",
+        "reserve1": "24260.407308923826046716",
+        "reserveUSD": "120287.9569870797700500734873791281",
+        "token0": {
+          "decimals": "18",
+          "id": "0xd586e7f844cea2f87f50152665bcbc2c279d8d70",
+          "name": "Dai Stablecoin",
+          "symbol": "DAI.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "36334.156446299591494195",
+        "trackedReserveETH": "1056.105632571704713372820392166931",
+        "volumeUSD": "2110446.160441602241336467679691917"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x53e3d3e77b3ed38fdc5156f6ef761d85012850c2",
+        "reserve0": "25046.479486",
+        "reserve1": "10340.380241405644509827",
+        "reserveUSD": "53703.08124215634082215729164618424",
+        "token0": {
+          "decimals": "6",
+          "id": "0xde3a24028580884448a5397872046a019649b084",
+          "name": "Tether USD",
+          "symbol": "USDT"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c8f3d529bea8e3fa1fac5b416335a2f998ee1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "0.014717637869351517",
+        "trackedReserveETH": "479.0959322465338660750714793581274",
+        "volumeUSD": "1789210.348885392402613667093431762"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xe5ee201bfa204d76d16942e809dbfac7e1ac2771",
+        "reserve0": "1171556.381310662",
+        "reserve1": "1117.583214799",
+        "reserveUSD": "26998.47381163174129793566559729424",
+        "token0": {
+          "decimals": "9",
+          "id": "0x1f1fe1ef06ab30a791d6357fdf0a7361b39b1537",
+          "name": "sled.finance",
+          "symbol": "SFI"
+        },
+        "token1": {
+          "decimals": "9",
+          "id": "0x2841a8a2ce98a9d21ad8c3b7fc481527569bd7bb",
+          "name": "SL3",
+          "symbol": "SL3"
+        },
+        "totalSupply": "0.000033679091017112",
+        "trackedReserveETH": "416.74915977695568494124704040296",
+        "volumeUSD": "29153.37211456834486334649983361931"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xddec519f47f0d57ea4ec3f061f109741970a80a0",
+        "reserve0": "23060.464291137657043052",
+        "reserve1": "9461.304986671722383435",
+        "reserveUSD": "45683.65834857428324660372519981539",
+        "token0": {
+          "decimals": "18",
+          "id": "0x346a59146b9b4a77100d369a3d18e8007a9f46a6",
+          "name": "AVAI",
+          "symbol": "AVAI"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "14676.784990589434235747",
+        "trackedReserveETH": "407.5530561505547371497138133705657",
+        "volumeUSD": "80385.34438390878303246723353836068"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x957c17a32a88028b3e0cfa995fca0c016b6b7ed9",
+        "reserve0": "6.841956560254652893",
+        "reserve1": "9275.463294771988028777",
+        "reserveUSD": "44982.76128681839948121027983705825",
+        "token0": {
+          "decimals": "18",
+          "id": "0x59414b3089ce2af0010e7523dea7e2b35d776ec7",
+          "name": "Yak Token",
+          "symbol": "YAK"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "245.51845254022288294",
+        "trackedReserveETH": "401.300213232722406622864526780697",
+        "volumeUSD": "387850.6040825628416675260266870411"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x70ac8e9f324800e7f20b31ecea9210e0d2b4b4b9",
+        "reserve0": "93754.700438256111625168",
+        "reserve1": "8695.028443365246239365",
+        "reserveUSD": "42342.34994588412740714958377601607",
+        "token0": {
+          "decimals": "18",
+          "id": "0x78ea17559b3d2cf85a7f9c2c704eda119db5e6de",
+          "name": "Avaware",
+          "symbol": "AVE"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "25830.52715432375008576",
+        "trackedReserveETH": "382.1267608412132752493976649413531",
+        "volumeUSD": "1650405.263915511597924668768291068"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xa8de0766a02535c2b2749088b8c9dd029afbc233",
+        "reserve0": "1142.812015718129272447",
+        "reserve1": "8729.828147198300940333",
+        "reserveUSD": "43197.92694529135796952367798899302",
+        "token0": {
+          "decimals": "18",
+          "id": "0x5947bb275c521040051d82396192181b413227a3",
+          "name": "Chainlink Token",
+          "symbol": "LINK.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "3091.899655146295979361",
+        "trackedReserveETH": "379.269671753120462817265536656411",
+        "volumeUSD": "285264.3974345648311876389457150638"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xaf91700c900a1c348b277be5adcd9458c3007254",
+        "reserve0": "5.31548351874390854",
+        "reserve1": "8428.036135096050101386",
+        "reserveUSD": "41728.25753486508192461871776365547",
+        "token0": {
+          "decimals": "18",
+          "id": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
+          "name": "Wrapped Ether",
+          "symbol": "WETH.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "203.368642161023612991",
+        "trackedReserveETH": "366.3662508185023634636674786307753",
+        "volumeUSD": "634464.5678460136872274666421878056"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xf5e04586ad7d9cf947b65a81c8e4bd7517480afa",
+        "reserve0": "0.28878909",
+        "reserve1": "5528.164081624577104022",
+        "reserveUSD": "26930.751140774895214994281327751",
+        "token0": {
+          "decimals": "8",
+          "id": "0x50b7545627a5162f82a992c33b87adc75187b218",
+          "name": "Wrapped BTC",
+          "symbol": "WBTC.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "0.000389722543610088",
+        "trackedReserveETH": "243.0417941752769682889597070220544",
+        "volumeUSD": "193592.8212746635307594540330404887"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x6965b390c7488bded5e5666426c86e658b27071e",
+        "reserve0": "1520.405739941920572976",
+        "reserve1": "5509.783502298516245829",
+        "reserveUSD": "27273.74622178231563740322048040352",
+        "token0": {
+          "decimals": "18",
+          "id": "0x100cc3a819dd3e8573fd2e46d1e66ee866068f30",
+          "name": "Dragon Crypto Aurum",
+          "symbol": "DCAU"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "2848.577370944405802253",
+        "trackedReserveETH": "239.4583608170301784590024709701258",
+        "volumeUSD": "168219.953236109761595646637760139"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xdc4000acbe8f9d6aa81696657927588cca2823ec",
+        "reserve0": "5703.881326794247882357",
+        "reserve1": "5332.43566007104564583",
+        "reserveUSD": "26269.6336741277166973878296685939",
+        "token0": {
+          "decimals": "18",
+          "id": "0x6e84a6216ea6dacc71ee8e6b0a5b7322eebc0fdd",
+          "name": "JoeToken",
+          "symbol": "JOE"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "5066.562566967269698349",
+        "trackedReserveETH": "229.3533541863861782944709866432506",
+        "volumeUSD": "590897.2631568528417643898732050783"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x3fbd7dd99ca32f98a56ddee57b6b96e1152668f5",
+        "reserve0": "4256.591823156078605954",
+        "reserve1": "1.589822974590431262",
+        "reserveUSD": "20515.91790899873483407149604348302",
+        "token0": {
+          "decimals": "18",
+          "id": "0xe1c8f3d529bea8e3fa1fac5b416335a2f998ee1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xf20d962a6c8f70c731bd838a3a388d7d48fa6e15",
+          "name": "Ether",
+          "symbol": "ETH"
+        },
+        "totalSupply": "79.004104308204738596",
+        "trackedReserveETH": "199.8225949991175031542349802232302",
+        "volumeUSD": "571570.5695976715066284734120419621"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x237690b5df9406f5e13c541d614c5a150d832c37",
+        "reserve0": "11761.546949541806854316",
+        "reserve1": "3115.676432775142212084",
+        "reserveUSD": "15171.76852560870309604971513215157",
+        "token0": {
+          "decimals": "18",
+          "id": "0xc38f41a296a4493ff429f1238e030924a1542e50",
+          "name": "Snowball",
+          "symbol": "SNOB"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "5833.91208658963829515",
+        "trackedReserveETH": "136.1244458694483476092008957964339",
+        "volumeUSD": "162053.5383303826591966868840312493"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x024b440d5eea2d95f90425186e9c6d83e0ea67ef",
+        "reserve0": "423.908146989787030308",
+        "reserve1": "2134.589104853167085778",
+        "reserveUSD": "10003.05820282863247105080046558638",
+        "token0": {
+          "decimals": "18",
+          "id": "0xd1c3f94de7e5b45fa4edbba472491a9f4b166fc4",
+          "name": "Avalaunch",
+          "symbol": "XAVA"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "910.070252360273088334",
+        "trackedReserveETH": "93.53549834856051483687735750849431",
+        "volumeUSD": "162830.8169549692272700169593611737"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x0e6ad18b2558ae80279d051c76ba783ffe17ad9f",
+        "reserve0": "13392.515583359457145392",
+        "reserve1": "1618.062528512098204177",
+        "reserveUSD": "7650.917723499595391758154537759586",
+        "token0": {
+          "decimals": "18",
+          "id": "0x61ecd63e42c27415696e10864d70ecea4aa11289",
+          "name": "RUGPULL",
+          "symbol": "RUGPULL"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "4531.805266747383628929",
+        "trackedReserveETH": "72.96380336191121722000275538435622",
+        "volumeUSD": "39071.39036744294610680544331601677"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x84ec9ed16e6c2bc09380866a44b29b2d447bce5e",
+        "reserve0": "24087807330119.954026571",
+        "reserve1": "1551.177527817126626539",
+        "reserveUSD": "7297.949908607962381474664665636491",
+        "token0": {
+          "decimals": "9",
+          "id": "0x6e7f5c0b9f4432716bdd0a77a3601291b9d9e985",
+          "name": "Spore.Finance",
+          "symbol": "SPORE"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "5068.827814255486553687",
+        "trackedReserveETH": "71.08116221658183436526172450270138",
+        "volumeUSD": "61803.04070784711933491924307114267"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x8ea0328052f094e8136ca91fab08d07ddbb1366f",
+        "reserve0": "4012.699451706835574661",
+        "reserve1": "1534.312673561901863329",
+        "reserveUSD": "7473.971964763454155718374489214219",
+        "token0": {
+          "decimals": "18",
+          "id": "0x60781c2586d68229fde47564546784ab3faca982",
+          "name": "Pangolin",
+          "symbol": "PNG"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "2373.625520144604353038",
+        "trackedReserveETH": "68.75427644747345130749214192123041",
+        "volumeUSD": "174121.3173842839062649195352566914"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x7a97e8755920b7a195d116a5a6ee6fa6fe880200",
+        "reserve0": "191.044176245",
+        "reserve1": "33.300343196400291283",
+        "reserveUSD": "5533.430792570909200857842074983522",
+        "token0": {
+          "decimals": "9",
+          "id": "0x2841a8a2ce98a9d21ad8c3b7fc481527569bd7bb",
+          "name": "SL3",
+          "symbol": "SL3"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "0.002335846551686209",
+        "trackedReserveETH": "66.60068639280058256600000000000001",
+        "volumeUSD": "13883.35039106155800433347922811557"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xe4b269b61471d81898be034dab496910a5796154",
+        "reserve0": "32.895436211057431783",
+        "reserve1": "0.517972360720747667",
+        "reserveUSD": "6754.79235858926956518029746325945",
+        "token0": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xf20d962a6c8f70c731bd838a3a388d7d48fa6e15",
+          "name": "Ether",
+          "symbol": "ETH"
+        },
+        "totalSupply": "4.035414936265492856",
+        "trackedReserveETH": "65.790872422114863566",
+        "volumeUSD": "310046.7250132579175931081894033323"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x172fc4f87ab39864420cc8e167dab16bc79d07ef",
+        "reserve0": "99658.760321734368531398",
+        "reserve1": "1443.009044720860962212",
+        "reserveUSD": "7112.928737932661546720000619499239",
+        "token0": {
+          "decimals": "18",
+          "id": "0x488f73cddda1de3664775ffd91623637383d6404",
+          "name": "YetiSwap",
+          "symbol": "YTS"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "11598.141093144379435446",
+        "trackedReserveETH": "62.53284502729180943872553944585548",
+        "volumeUSD": "43644.52753268364003049035789293672"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x269fafdc9f362414b9c08adbb8a3106af5a2dc01",
+        "reserve0": "30.193315803993799183",
+        "reserve1": "110.449103452488365204",
+        "reserveUSD": "6916.553266830299905666828139008505",
+        "token0": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb3fe5374f67d7a22886a0ee082b2e2f9d2651651",
+          "name": "ChainLink Token",
+          "symbol": "LINK"
+        },
+        "totalSupply": "56.464122872410327651",
+        "trackedReserveETH": "60.38663160798759836599999999999999",
+        "volumeUSD": "136520.650056057014024644929090635"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x84cf8ef74974399b4473bcf474507fe9557250ab",
+        "reserve0": "36293.743436678461151773",
+        "reserve1": "1297.291640716185575738",
+        "reserveUSD": "6394.653606980659726709571685479417",
+        "token0": {
+          "decimals": "18",
+          "id": "0x846d50248baf8b7ceaa9d9b53bfd12d7d7fbb25a",
+          "name": "VersoToken",
+          "symbol": "VSO"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "6647.728740647480207316",
+        "trackedReserveETH": "56.21817647012673127756105474629234",
+        "volumeUSD": "127638.6483913798928137750890862307"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x490c69b3a746a10b163f1e9a5674f2057d3d956f",
+        "reserve0": "2611.291104",
+        "reserve1": "23.029129261990749252",
+        "reserveUSD": "5245.927726700509691301282934661874",
+        "token0": {
+          "decimals": "6",
+          "id": "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664",
+          "name": "USD Coin",
+          "symbol": "USDC.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "0.000232843802772447",
+        "trackedReserveETH": "46.058258523981498504",
+        "volumeUSD": "78876.42093300874566674389224291977"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x563d2d28ea10691bae85838d1ee8f1397217b252",
+        "reserve0": "22.443090423160092286",
+        "reserve1": "2566.350003",
+        "reserveUSD": "5154.653115057241951047616451480306",
+        "token0": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "token1": {
+          "decimals": "6",
+          "id": "0xc7198437980c041c805a1edcba50c1ce5db95118",
+          "name": "Tether USD",
+          "symbol": "USDT.e"
+        },
+        "totalSupply": "0.000232955698705857",
+        "trackedReserveETH": "44.886180846320184572",
+        "volumeUSD": "44887.84667158315586552324073355922"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xd185c562306cb257a53c6b9d7287ebed9b1bb410",
+        "reserve0": "2412.332811",
+        "reserve1": "976.282249735746834462",
+        "reserveUSD": "4834.143622305240851918925269811308",
+        "token0": {
+          "decimals": "6",
+          "id": "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664",
+          "name": "USD Coin",
+          "symbol": "USDC.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "0.001387716095171207",
+        "trackedReserveETH": "42.30752026043132533747661575666079",
+        "volumeUSD": "164583.8933513843583097176886429461"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xca94033d7a0b14bc6377fb0bf1c56218d24eb68d",
+        "reserve0": "3732.922162348137305522",
+        "reserve1": "853.195225754034242118",
+        "reserveUSD": "4201.664868898146918368799088501512",
+        "token0": {
+          "decimals": "18",
+          "id": "0x1ecd47ff4d9598f89721a2866bfeb99505a413ed",
+          "name": "AVME",
+          "symbol": "AVME"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "1767.183578791067866592",
+        "trackedReserveETH": "38.57764748283392535659881151811822",
+        "volumeUSD": "18290.30059743158799216787144105159"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x2930b7cffd8f458330f4f66e3fb336ccfd125176",
+        "reserve0": "2863.564626770948917882",
+        "reserve1": "834.652267868934751089",
+        "reserveUSD": "4064.522461246157194043770663792362",
+        "token0": {
+          "decimals": "18",
+          "id": "0xa5e59761ebd4436fa4d20e1a27cba29fb2471fc6",
+          "name": "Sherpa",
+          "symbol": "SHERPA"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "1529.557575519778748593",
+        "trackedReserveETH": "36.68107236531222526975056673262783",
+        "volumeUSD": "11975.45141099445409676373297178991"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x9e907ed20ecc6a9fcf051e1821e2135d5dc6c0c5",
+        "reserve0": "126381037455514.059931255",
+        "reserve1": "17.532736453039754536",
+        "reserveUSD": "3757.332577881451838869390448557799",
+        "token0": {
+          "decimals": "9",
+          "id": "0x3ab71ca6da13e50ab4966e3a0566d1b6b118c4ae",
+          "name": "BostonTerrier",
+          "symbol": "ARFV2"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "1391.342517234468117452",
+        "trackedReserveETH": "35.06547290607950907199999999999999",
+        "volumeUSD": "8215.577017754266782712352197312176"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x266ed42866b3d2d418c87ebf8b58f22add0e6f8e",
+        "reserve0": "1743.05054672460471874",
+        "reserve1": "652.660469369085203781",
+        "reserveUSD": "3484.938547120175999381676906143869",
+        "token0": {
+          "decimals": "18",
+          "id": "0x60781c2586d68229fde47564546784ab3faca982",
+          "name": "Pangolin",
+          "symbol": "PNG"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c8f3d529bea8e3fa1fac5b416335a2f998ee1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "1022.133730092641704562",
+        "trackedReserveETH": "30.08959089029521704645116799230854",
+        "volumeUSD": "382833.4648866799188183835654077036"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xb11b720d574ea4888dc8b3cd3e7149774bd977c9",
+        "reserve0": "287.862693980746237104",
+        "reserve1": "638.454098090744594552",
+        "reserveUSD": "3003.857013505650199593928794673718",
+        "token0": {
+          "decimals": "18",
+          "id": "0x37b608519f91f70f2eeb0e5ed9af4061722e4f76",
+          "name": "SushiToken",
+          "symbol": "SUSHI.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "420.800923291471898378",
+        "trackedReserveETH": "29.25720926099632654412855265715332",
+        "volumeUSD": "78585.1735866451090274413159079813"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x4a4421c3315319ee9ac251aa851d780672e1544d",
+        "reserve0": "2476.608288282317303007",
+        "reserve1": "614.028643371623837294",
+        "reserveUSD": "3073.826985448561817814831276839903",
+        "token0": {
+          "decimals": "18",
+          "id": "0xc38f41a296a4493ff429f1238e030924a1542e50",
+          "name": "Snowball",
+          "symbol": "SNOB"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c8f3d529bea8e3fa1fac5b416335a2f998ee1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "1198.852786209774981238",
+        "trackedReserveETH": "28.80495867577230460412555795461051",
+        "volumeUSD": "42487.56115389788141591350123239798"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x2b0aedac7f88c5787b05dd09f96b9819c6b92c2c",
+        "reserve0": "9535.523701184617233659",
+        "reserve1": "571.73719271586898775",
+        "reserveUSD": "2689.961238180501363051498148926278",
+        "token0": {
+          "decimals": "18",
+          "id": "0x8729438eb15e2c8b576fcc6aecda6a148776c0f5",
+          "name": "BENQI",
+          "symbol": "QI"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "2283.378362853601791164",
+        "trackedReserveETH": "26.19990182474365474325128493705388",
+        "volumeUSD": "28065.79999806702359406995223511767"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xdfff750529a2eaba8b13e1b81f054ede83ca52a2",
+        "reserve0": "12.211173164953120303",
+        "reserve1": "1392.362180574578772025",
+        "reserveUSD": "2797.282358591275122462213672362309",
+        "token0": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xd586e7f844cea2f87f50152665bcbc2c279d8d70",
+          "name": "Dai Stablecoin",
+          "symbol": "DAI.e"
+        },
+        "totalSupply": "128.583898300445574015",
+        "trackedReserveETH": "24.42234632990624060600000000000001",
+        "volumeUSD": "10957.84193743111019501537310152287"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xd6e8a9784ad740d449209f4c684685672fa37e0d",
+        "reserve0": "12682314402.613340344691959878",
+        "reserve1": "475.680000789686305863",
+        "reserveUSD": "2332.689955847203428267678154795461",
+        "token0": {
+          "decimals": "18",
+          "id": "0x65378b697853568da9ff8eab60c13e1ee9f4a654",
+          "name": "Husky",
+          "symbol": "HUSKY"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "574875.574474660333924",
+        "trackedReserveETH": "22.08183524474750017753537616347884",
+        "volumeUSD": "30792.92492002439596793227161345887"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xbf07613489ab0fb9a9282329594678e1d0587c06",
+        "reserve0": "78204.807272125948365153",
+        "reserve1": "428.125441372783266317",
+        "reserveUSD": "2108.93012772583405435807314009005",
+        "token0": {
+          "decimals": "18",
+          "id": "0x617724974218a18769020a70162165a539c07e8a",
+          "name": "OliveCash Token",
+          "symbol": "OLIVE"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "5614.330423933676321259",
+        "trackedReserveETH": "19.45521228626083339933147620007037",
+        "volumeUSD": "21846.43136854155446928739392032676"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x752ab88d07e5beac8f71887552dc41cc7e482d87",
+        "reserve0": "168744.067137772",
+        "reserve1": "9.713113162682525664",
+        "reserveUSD": "2226.248390385998917045197597300571",
+        "token0": {
+          "decimals": "9",
+          "id": "0x1f1fe1ef06ab30a791d6357fdf0a7361b39b1537",
+          "name": "sled.finance",
+          "symbol": "SFI"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "0.038342865867164041",
+        "trackedReserveETH": "19.42622632536505132800000000000001",
+        "volumeUSD": "17350.3314928484421152881097426084"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xf21887c326c7bc061504b1fe3a2d15d4d19ffd51",
+        "reserve0": "629.515260518915267168",
+        "reserve1": "387.816845635799099644",
+        "reserveUSD": "1897.142427891771117502687010237654",
+        "token0": {
+          "decimals": "18",
+          "id": "0x21c5402c3b7d40c89cc472c9df5dd7e51bbab1b1",
+          "name": "TUNDRAToken",
+          "symbol": "TUNDRA"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "482.81236657823341764",
+        "trackedReserveETH": "17.50143742870602623149371934467346",
+        "volumeUSD": "16084.40640311845932361489887436106"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x7e449382cba7560a159301806f63550c4e05009c",
+        "reserve0": "115101.556468904",
+        "reserve1": "300.467667034252843736",
+        "reserveUSD": "1166.798571649531177526944991311264",
+        "token0": {
+          "decimals": "9",
+          "id": "0x1f1fe1ef06ab30a791d6357fdf0a7361b39b1537",
+          "name": "sled.finance",
+          "symbol": "SFI"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c8f3d529bea8e3fa1fac5b416335a2f998ee1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "0.140527943613924937",
+        "trackedReserveETH": "14.69368213235324205254704620061008",
+        "volumeUSD": "124657.5097943847132779956998072557"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xffa11b5cd31994159b6d9c0982535f3acdcafb8c",
+        "reserve0": "727.753193746035525275",
+        "reserve1": "287.770276338886847349",
+        "reserveUSD": "1431.697372214200776176714231650672",
+        "token0": {
+          "decimals": "18",
+          "id": "0x130966628846bfd36ff31a822705796e8cb8c18d",
+          "name": "Magic Internet Money",
+          "symbol": "MIM"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "444.529191068157340805",
+        "trackedReserveETH": "12.46707115531950968584188454594513",
+        "volumeUSD": "11225.06944155640222786197354773938"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x6715adb3f8b8001fbcd049b683db05cd406a9f7f",
+        "reserve0": "0.300246646227163036",
+        "reserve1": "142.220913534710694837",
+        "reserveUSD": "695.8416474798169549232062891480628",
+        "token0": {
+          "decimals": "18",
+          "id": "0x8ce2dee54bb9921a2ae0a63dbb2df8ed88b91dd9",
+          "name": "Aave Token",
+          "symbol": "AAVE"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "6.442856905168756485",
+        "trackedReserveETH": "6.15911957031979070586729416190347",
+        "volumeUSD": "10972.92434743717248715013101545363"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x29f0293c64c02a997f123309431272834bf3bb29",
+        "reserve0": "1.529459622609812637",
+        "reserve1": "112.09284689536203934",
+        "reserveUSD": "559.1868226021504212639486421275425",
+        "token0": {
+          "decimals": "18",
+          "id": "0x63a72806098bd3d9520cc43356dd78afe5d386d9",
+          "name": "Aave Token",
+          "symbol": "AAVE.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "12.935338671664813739",
+        "trackedReserveETH": "5.003452738307065766015120649883724",
+        "volumeUSD": "18079.74254337392726812857438830833"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x1245819ff9b947ffe352ed6fab40e6ace7299677",
+        "reserve0": "98.642142966764210483",
+        "reserve1": "134.61338234591131579",
+        "reserveUSD": "506.1878692928238494653664367389709",
+        "token0": {
+          "decimals": "18",
+          "id": "0xe1c8f3d529bea8e3fa1fac5b416335a2f998ee1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe896cdeaac9615145c0ca09c8cd5c25bced6384c",
+          "name": "PenguinToken",
+          "symbol": "PEFI"
+        },
+        "totalSupply": "111.244748839909802654",
+        "trackedReserveETH": "4.757319986858583041475076694544899",
+        "volumeUSD": "79458.18838796280650520957232687875"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xa8659f969ebea8d3a362588c23d318bd521a48e0",
+        "reserve0": "669.2480054536503552",
+        "reserve1": "77.626441668604097022",
+        "reserveUSD": "396.0580067981683905294381167345605",
+        "token0": {
+          "decimals": "18",
+          "id": "0x894aa2d0d3e63471c5ffbd22a8a95c8476826cf9",
+          "name": "PUMPKINS",
+          "symbol": "KINS"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "202.449662346753067911",
+        "trackedReserveETH": "4.223717881736367501914786958941481",
+        "volumeUSD": "7574.854759082965111396844142244171"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x3e58308a97af12ad4affe6f688a8b7e8a8e459b1",
+        "reserve0": "5.989348665014548641",
+        "reserve1": "79.051920559737085845",
+        "reserveUSD": "310.2042912156382014124723242109669",
+        "token0": {
+          "decimals": "18",
+          "id": "0xb3fe5374f67d7a22886a0ee082b2e2f9d2651651",
+          "name": "ChainLink Token",
+          "symbol": "LINK"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c8f3d529bea8e3fa1fac5b416335a2f998ee1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "21.100477543605816463",
+        "trackedReserveETH": "3.870531517555509492609493339221278",
+        "volumeUSD": "191175.3112042959207475092189902573"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x79521b914ec1b55e1bb4d52978fb585918a827db",
+        "reserve0": "4786.707025400444117989",
+        "reserve1": "61.168203977231404035",
+        "reserveUSD": "312.0833115441000294330760503081902",
+        "token0": {
+          "decimals": "18",
+          "id": "0x488f73cddda1de3664775ffd91623637383d6404",
+          "name": "YetiSwap",
+          "symbol": "YTS"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c8f3d529bea8e3fa1fac5b416335a2f998ee1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "518.757322308532591826",
+        "trackedReserveETH": "2.809877932570676482020211604443953",
+        "volumeUSD": "151755.6239752326198023632579773087"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x0826e1a55ebef25d725bb944555f714db84d95bb",
+        "reserve0": "1.143977704696413093",
+        "reserve1": "119.03978",
+        "reserveUSD": "263.0643896001491133027890101086984",
+        "token0": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "token1": {
+          "decimals": "6",
+          "id": "0xde3a24028580884448a5397872046a019649b084",
+          "name": "Tether USD",
+          "symbol": "USDT"
+        },
+        "totalSupply": "0.000011275808613927",
+        "trackedReserveETH": "2.287955409392826185999999999999999",
+        "volumeUSD": "408059.1900259102285124403152078441"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xc73db3e26c4a4deabcddefa77144136b260d08cc",
+        "reserve0": "5504771272859.158720413",
+        "reserve1": "29.557258132974983899",
+        "reserveUSD": "168.3635204141459551300139510280837",
+        "token0": {
+          "decimals": "9",
+          "id": "0x3ab71ca6da13e50ab4966e3a0566d1b6b118c4ae",
+          "name": "BostonTerrier",
+          "symbol": "ARFV2"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "363.748610182823407126",
+        "trackedReserveETH": "1.571260020528496666418725205038552",
+        "volumeUSD": "620.5200114247094613446467350746028"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x4800ffde777768fa482b1a2b21128826f3deca8d",
+        "reserve0": "11238773.734736962920171201",
+        "reserve1": "0.747327972259872202",
+        "reserveUSD": "25.59296014931248377881550614627237",
+        "token0": {
+          "decimals": "18",
+          "id": "0x1fe9a44c156807d8b90e3dbc7b77fa7af5af1d5c",
+          "name": "POLAR BEAR",
+          "symbol": "BEAR"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "2865.565452724754563498",
+        "trackedReserveETH": "1.494655944519744404",
+        "volumeUSD": "7529.407395222090341165839900634034"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xf70aaac7892d70d8473d902e47763af8d8be5607",
+        "reserve0": "32.345768351565689161",
+        "reserve1": "40.279731780514573664",
+        "reserveUSD": "158.2575458092579532710022567477651",
+        "token0": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe896cdeaac9615145c0ca09c8cd5c25bced6384c",
+          "name": "PenguinToken",
+          "symbol": "PEFI"
+        },
+        "totalSupply": "35.271035224798243139",
+        "trackedReserveETH": "1.40078874421332135314632267001241",
+        "volumeUSD": "9153.688287803309132027062226320542"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xdab4513a18ab3ce23470c1a75e3da7dca2643c35",
+        "reserve0": "8.139988490324150203",
+        "reserve1": "28.795753375594416371",
+        "reserveUSD": "149.9103650380536476637176676358878",
+        "token0": {
+          "decimals": "18",
+          "id": "0x39cf1bd5f15fb22ec3d9ff86b0727afc203427cc",
+          "name": "SushiToken",
+          "symbol": "SUSHI"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c8f3d529bea8e3fa1fac5b416335a2f998ee1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "15.080584927542289244",
+        "trackedReserveETH": "1.326905146370160236592693567917168",
+        "volumeUSD": "37336.89811694299816425738168491983"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x73a5e6752205688889c684349270e430bd36af8c",
+        "reserve0": "3.651484344",
+        "reserve1": "21.189902552616898978",
+        "reserveUSD": "128.925319641332858783621852617039",
+        "token0": {
+          "decimals": "9",
+          "id": "0x2841a8a2ce98a9d21ad8c3b7fc481527569bd7bb",
+          "name": "SL3",
+          "symbol": "SL3"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c8f3d529bea8e3fa1fac5b416335a2f998ee1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "0.000234720511099906",
+        "trackedReserveETH": "1.174396113458589356038409490646103",
+        "volumeUSD": "8574.949621180789608849190264432603"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x70cd9aa27b7a6fee03f9683aabd742d77b584012",
+        "reserve0": "21.816410730804181839",
+        "reserve1": "49030009.401693969837160872",
+        "reserveUSD": "107.9277283826439750985083202926475",
+        "token0": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xecfe536a209e405db19887830b366e397f5b917a",
+          "name": "PlateauFinance",
+          "symbol": "PLT"
+        },
+        "totalSupply": "29969.596689046201311427",
+        "trackedReserveETH": "0.939823384111868412948745521570307",
+        "volumeUSD": "26799.68994735462881380188205650787"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x0c7457b05d4cb71e401982091e4a61e52c632134",
+        "reserve0": "2.531132781",
+        "reserve1": "18.235192244678676187",
+        "reserveUSD": "104.4723748042500115689765300693361",
+        "token0": {
+          "decimals": "9",
+          "id": "0x2841a8a2ce98a9d21ad8c3b7fc481527569bd7bb",
+          "name": "SL3",
+          "symbol": "SL3"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "0.000188798000600201",
+        "trackedReserveETH": "0.9310521149204062176821728660085188",
+        "volumeUSD": "458.1439859396034282525284865639792"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x6e98209b83f3b297f976c2b42818658b204b5ee2",
+        "reserve0": "190.406642004403701958",
+        "reserve1": "0.414315968144634751",
+        "reserveUSD": "78.36348921073435278746149334117909",
+        "token0": {
+          "decimals": "18",
+          "id": "0x78ea17559b3d2cf85a7f9c2c704eda119db5e6de",
+          "name": "Avaware",
+          "symbol": "AVE"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "8.666798041832540573",
+        "trackedReserveETH": "0.8286319362892695019999999999999999",
+        "volumeUSD": "453.1759414376934736048829626771744"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x9f125fe210b27199229221be5f8e0ebb9094af37",
+        "reserve0": "2196.542791931180471663",
+        "reserve1": "11.64325030094404425",
+        "reserveUSD": "46.63426754952699104514119569446865",
+        "token0": {
+          "decimals": "18",
+          "id": "0x617724974218a18769020a70162165a539c07e8a",
+          "name": "OliveCash Token",
+          "symbol": "OLIVE"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c8f3d529bea8e3fa1fac5b416335a2f998ee1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "155.672444527340875247",
+        "trackedReserveETH": "0.5639104076959362623567226466601848",
+        "volumeUSD": "61944.05340271688623685497768620707"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xce453c94f63990f2597cca15960a048fd44ceba1",
+        "reserve0": "82983711236.305650057",
+        "reserve1": "5.291882783850444349",
+        "reserveUSD": "21.44767921243056330109274556138746",
+        "token0": {
+          "decimals": "9",
+          "id": "0x6e7f5c0b9f4432716bdd0a77a3601291b9d9e985",
+          "name": "Spore.Finance",
+          "symbol": "SPORE"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c8f3d529bea8e3fa1fac5b416335a2f998ee1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "17.183092830835584998",
+        "trackedReserveETH": "0.2412110549905403123494392656239057",
+        "volumeUSD": "217763.6037000623717773655578126497"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x1157bd39f71fc1ef9b3fe2e1f9f71690a8ba0f0c",
+        "reserve0": "8941372610282.124817998",
+        "reserve1": "0.115991400203096484",
+        "reserveUSD": "3.153220797721038988981684300479218",
+        "token0": {
+          "decimals": "9",
+          "id": "0x8652c8078ebc0b2381b76e38ccaf13b55ea13126",
+          "name": "BostonTerrier",
+          "symbol": "ARF"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "31.569559003086269066",
+        "trackedReserveETH": "0.231982800406192968",
+        "volumeUSD": "2669.268694079846749575112753606881"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x5bae3110066890d0bdb9837c14c2461168a3407e",
+        "reserve0": "0.00022698",
+        "reserve1": "5.933646265764582159",
+        "reserveUSD": "12.98473681094534824513502392699623",
+        "token0": {
+          "decimals": "8",
+          "id": "0x408d4cd0adb7cebd1f1a1c33a0ba2098e1295bab",
+          "name": "Wrapped BTC",
+          "symbol": "WBTC"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c8f3d529bea8e3fa1fac5b416335a2f998ee1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "0.000000356210168949",
+        "trackedReserveETH": "0.1406645461353995803845528217208945",
+        "volumeUSD": "229971.1555320350597316357379356832"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x5e4f035f22098fd7480d97bba26c88746a9f7595",
+        "reserve0": "416.307251969",
+        "reserve1": "1.443069348630753963",
+        "reserveUSD": "8.185343965314102108841789501226194",
+        "token0": {
+          "decimals": "9",
+          "id": "0x1f1fe1ef06ab30a791d6357fdf0a7361b39b1537",
+          "name": "sled.finance",
+          "symbol": "SFI"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "0.000725307196293579",
+        "trackedReserveETH": "0.1302386818797576635576158121959045",
+        "volumeUSD": "6372.99650724843037194727995915637"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x1b79020d1b249e6ff78a8abe1fca9d9405ac7f70",
+        "reserve0": "91.971909989254814967",
+        "reserve1": "2.722677404730270134",
+        "reserveUSD": "6.400114760426277701582555554962283",
+        "token0": {
+          "decimals": "18",
+          "id": "0x45c13620b55c35a5f539d26e88247011eb10fdbd",
+          "name": "Hurricane Token",
+          "symbol": "HCT"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "15.811388300841895659",
+        "trackedReserveETH": "0.1230640016431749685952456003692357",
+        "volumeUSD": "6.25829163859388935563959170047549"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xacb3f9585f644348ec739146d952cb1959f8b6d9",
+        "reserve0": "1640380.424777570117251739",
+        "reserve1": "0.049417996587768854",
+        "reserveUSD": "4.278477630255953356043190694894635",
+        "token0": {
+          "decimals": "18",
+          "id": "0x45cdaf3fd17bd31d9830fa977159162dd2431683",
+          "name": "KIOO",
+          "symbol": "KIOO"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "222.555310296276006233",
+        "trackedReserveETH": "0.09883599317553770799999999999999999",
+        "volumeUSD": "8.366018441551002982261761549282718"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x178d62fb9b23777fce2c02ed465396fe233172f6",
+        "reserve0": "2.689029718093653214",
+        "reserve1": "0.973269235672779191",
+        "reserveUSD": "5.094796114443440032231195533969266",
+        "token0": {
+          "decimals": "18",
+          "id": "0xba7deebbfc5fa1100fb055a87773e1e99cd3507a",
+          "name": "Dai Stablecoin",
+          "symbol": "DAI"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "1.557426262755675986",
+        "trackedReserveETH": "0.08791525211179307506456233852847771",
+        "volumeUSD": "497035.5418877570735248888580828965"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xf31a76d123dd6b10008f2f096ab0aafbd508a2de",
+        "reserve0": "1.995682825810338292",
+        "reserve1": "0.561217139765706939",
+        "reserveUSD": "4.106439038696285072542668967367742",
+        "token0": {
+          "decimals": "18",
+          "id": "0xba7deebbfc5fa1100fb055a87773e1e99cd3507a",
+          "name": "Dai Stablecoin",
+          "symbol": "DAI"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c8f3d529bea8e3fa1fac5b416335a2f998ee1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "1.013745928976154867",
+        "trackedReserveETH": "0.0760820222711502452815764940453438",
+        "volumeUSD": "270768.5563688125421810370620352833"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xd514419729a55d2615f87b074e15cd28eca3fc9b",
+        "reserve0": "0.059985655364832074",
+        "reserve1": "4.392051462466901054",
+        "reserveUSD": "4.817921834550793698528162228380717",
+        "token0": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xba7deebbfc5fa1100fb055a87773e1e99cd3507a",
+          "name": "Dai Stablecoin",
+          "symbol": "DAI"
+        },
+        "totalSupply": "0.494236745201377987",
+        "trackedReserveETH": "0.059985655364832074",
+        "volumeUSD": "78114.07185278224126837277835073464"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x288ffb87fc69dc652f9b564faf05db7468013544",
+        "reserve0": "0.0000805",
+        "reserve1": "0.0528595553774783",
+        "reserveUSD": "4.4608727444343322234321987141814",
+        "token0": {
+          "decimals": "8",
+          "id": "0x408d4cd0adb7cebd1f1a1c33a0ba2098e1295bab",
+          "name": "Wrapped BTC",
+          "symbol": "WBTC"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "0.000000020247997472",
+        "trackedReserveETH": "0.05285955537747829999999999999999999",
+        "volumeUSD": "57670.31204927384538367110712091045"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xdf748b591d647701c8d923dce5c2bf31ea247b71",
+        "reserve0": "0.026348615425488434",
+        "reserve1": "23290.27380262478278368",
+        "reserveUSD": "2.387094796396166521157070072438994",
+        "token0": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xbbbf1d428be8fda47bae2c1d180b86cdff736f3f",
+          "name": "DigiTopia",
+          "symbol": "DGT"
+        },
+        "totalSupply": "24.766970891805312304",
+        "trackedReserveETH": "0.05269723085097686800000000000000001",
+        "volumeUSD": "0"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x53544905b23d331306d2ba329887e8b7565a7bea",
+        "reserve0": "196944.936991677178380819",
+        "reserve1": "0.137837215445406593",
+        "reserveUSD": "0.4063317017584589961765810066421743",
+        "token0": {
+          "decimals": "18",
+          "id": "0x1fe9a44c156807d8b90e3dbc7b77fa7af5af1d5c",
+          "name": "POLAR BEAR",
+          "symbol": "BEAR"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c8f3d529bea8e3fa1fac5b416335a2f998ee1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "160.774990754997718833",
+        "trackedReserveETH": "0.02126849499873037374295154849219769",
+        "volumeUSD": "87.53497059445139640457914183701897"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x793f51fb9c2c0cb2b9e7c1cc2d80149ee8ea6578",
+        "reserve0": "6416342686.480612328",
+        "reserve1": "0.008216966444772527",
+        "reserveUSD": "1.772403756806835922723033843099652",
+        "token0": {
+          "decimals": "9",
+          "id": "0x6e7f5c0b9f4432716bdd0a77a3601291b9d9e985",
+          "name": "Spore.Finance",
+          "symbol": "SPORE"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "0.000000089530177602",
+        "trackedReserveETH": "0.0189016086350621134368832551603339",
+        "volumeUSD": "159.7721548258193628635026757720939"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x63e329b3b4b56ae3f982fa9f1745dee7397b9414",
+        "reserve0": "0.001497496",
+        "reserve1": "35003435928.025229166",
+        "reserveUSD": "0.5786267941919794888177683365231206",
+        "token0": {
+          "decimals": "9",
+          "id": "0x2841a8a2ce98a9d21ad8c3b7fc481527569bd7bb",
+          "name": "SL3",
+          "symbol": "SL3"
+        },
+        "token1": {
+          "decimals": "9",
+          "id": "0x3ab71ca6da13e50ab4966e3a0566d1b6b118c4ae",
+          "name": "BostonTerrier",
+          "symbol": "ARFV2"
+        },
+        "totalSupply": "0.000000000300415455",
+        "trackedReserveETH": "0.005677175690000840467101283389286855",
+        "volumeUSD": "0"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x8849a6913df407d46981cfc2c3da87dfcd68b87a",
+        "reserve0": "0.980000002",
+        "reserve1": "0.95",
+        "reserveUSD": "0.008906841449325743609818336997198132",
+        "token0": {
+          "decimals": "9",
+          "id": "0x1f1fe1ef06ab30a791d6357fdf0a7361b39b1537",
+          "name": "sled.finance",
+          "symbol": "SFI"
+        },
+        "token1": {
+          "decimals": "9",
+          "id": "0x3ab71ca6da13e50ab4966e3a0566d1b6b118c4ae",
+          "name": "BostonTerrier",
+          "symbol": "ARFV2"
+        },
+        "totalSupply": "0.000000000964882413",
+        "trackedReserveETH": "0.0004643936019710628886883341995281659",
+        "volumeUSD": "0"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xd5a9eb436c15b4e26a7ce9fba7d1fd998d946b5f",
+        "reserve0": "10",
+        "reserve1": "0.0001",
+        "reserveUSD": "0.004363427939288702459409982277325884",
+        "token0": {
+          "decimals": "18",
+          "id": "0x82d4d5b0d89ab194dd1d8e7364130990463685d6",
+          "name": "LittleFarmer",
+          "symbol": "LFARMER"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "0.031622776601682793",
+        "trackedReserveETH": "0.0002",
+        "volumeUSD": "0"
+      }
+    ]
+  }
+}

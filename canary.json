@@ -1,0 +1,952 @@
+{
+  "data": {
+    "pairs": [
+      {
+        "__typename": "Pair",
+        "id": "0x66c5350998a210aa4201fed2e7607faaa3c175e1",
+        "reserve0": "133076.824726",
+        "reserve1": "133350.176518987030209681",
+        "reserveUSD": "2352.0834730032017727244092530455",
+        "token0": {
+          "decimals": "6",
+          "id": "0xc7198437980c041c805a1edcba50c1ce5db95118",
+          "name": "Tether USD",
+          "symbol": "USDT.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xd586e7f844cea2f87f50152665bcbc2c279d8d70",
+          "name": "Dai Stablecoin",
+          "symbol": "DAI.e"
+        },
+        "totalSupply": "0.133067164620464616",
+        "trackedReserveETH": "2352.0834730032017727244092530455",
+        "volumeUSD": "1753.805982237300224230453748190766"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xb7a951ee0093e0fde8ebdf2af551f72a0cca66fc",
+        "reserve0": "29202.456246416343420579",
+        "reserve1": "893.520567258137852607",
+        "reserveUSD": "1787.041134516275705214",
+        "token0": {
+          "decimals": "18",
+          "id": "0xb1466d4cf0dcfc0bcddcf3500f473cdacb88b56d",
+          "name": "Weble Ecosystem Token",
+          "symbol": "WET"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "5104.615196003054716746",
+        "trackedReserveETH": "1787.041134516275705214",
+        "volumeUSD": "325.0271056687947374363120480982108"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x5a2be3aa5ed59cc120c1aee2f03146de02dfc280",
+        "reserve0": "6766709.633596640916384133",
+        "reserve1": "889.978669107811958475",
+        "reserveUSD": "1779.95733821562391695",
+        "token0": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "51255.7729516276010711",
+        "trackedReserveETH": "1779.95733821562391695",
+        "volumeUSD": "446716.4502877993534224372267325788"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x86e5a2b7c0789292386dda043e05ef206890b5b6",
+        "reserve0": "22850.695846711797623453",
+        "reserve1": "1466746.61707557484288144",
+        "reserveUSD": "386.0971154165522125158958645056253",
+        "token0": {
+          "decimals": "18",
+          "id": "0x60781c2586d68229fde47564546784ab3faca982",
+          "name": "Pangolin",
+          "symbol": "PNG"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "totalSupply": "167160.494632793981953581",
+        "trackedReserveETH": "386.0971154165522125158958645056253",
+        "volumeUSD": "57750.23803032045299940829790977818"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x0e5deb65de394ae7eb31dbf95af31a54cd6d806f",
+        "reserve0": "1441346.63577980475669263",
+        "reserve1": "21670.334914",
+        "reserveUSD": "381.091599289166001916932310267942",
+        "token0": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "token1": {
+          "decimals": "6",
+          "id": "0xc7198437980c041c805a1edcba50c1ce5db95118",
+          "name": "Tether USD",
+          "symbol": "USDT.e"
+        },
+        "totalSupply": "0.164309210520838109",
+        "trackedReserveETH": "381.091599289166001916932310267942",
+        "volumeUSD": "37872.02330818302728404891182618138"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xfecd4d03d3ee4696d51377ca511aedaca59856c0",
+        "reserve0": "18272.957041",
+        "reserve1": "18272.328106",
+        "reserveUSD": "335.9938439094038947190954228899467",
+        "token0": {
+          "decimals": "6",
+          "id": "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664",
+          "name": "USD Coin",
+          "symbol": "USDC.e"
+        },
+        "token1": {
+          "decimals": "6",
+          "id": "0xc7198437980c041c805a1edcba50c1ce5db95118",
+          "name": "Tether USD",
+          "symbol": "USDT.e"
+        },
+        "totalSupply": "0.000000018267853127",
+        "trackedReserveETH": "336.111229832267411395438437879232",
+        "volumeUSD": "167.972131273895716280357214592663"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x012eff5b0ca3f831a7f8966020c227cbd7d1ed06",
+        "reserve0": "4.481631520760392518",
+        "reserve1": "132.18540839990892436",
+        "reserveUSD": "264.37081679981784872",
+        "token0": {
+          "decimals": "18",
+          "id": "0x59414b3089ce2af0010e7523dea7e2b35d776ec7",
+          "name": "Yak Token",
+          "symbol": "YAK"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "24.150436903971691667",
+        "trackedReserveETH": "264.37081679981784872",
+        "volumeUSD": "302.6462559400809115541980199840369"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xc3d899960075c4a4d6ff023f555f2b0fa4615ce2",
+        "reserve0": "3.823613363954570313",
+        "reserve1": "997429.393619526870520743",
+        "reserveUSD": "263.7569691493761059073519466756132",
+        "token0": {
+          "decimals": "18",
+          "id": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
+          "name": "Wrapped Ether",
+          "symbol": "WETH.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "totalSupply": "1871.917495799702803596",
+        "trackedReserveETH": "263.7569691493761059073519466756132",
+        "volumeUSD": "16028.46439780831010577066106834608"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x1c5e3e15c529fc338264f686710cd90733ed37d8",
+        "reserve0": "869203.61634073876847894",
+        "reserve1": "13008.084012",
+        "reserveUSD": "227.1522969794115357861742078503494",
+        "token0": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "token1": {
+          "decimals": "6",
+          "id": "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664",
+          "name": "USD Coin",
+          "symbol": "USDC.e"
+        },
+        "totalSupply": "0.103225837419703459",
+        "trackedReserveETH": "228.4507086875460578198358868131454",
+        "volumeUSD": "3809.714061235454239454310970473164"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x7c9fbae8f9c7fdb373c6d23e7b43d72b9aeadedf",
+        "reserve0": "11436.750155",
+        "reserve1": "101.034658012597642024",
+        "reserveUSD": "202.069316025195284048",
+        "token0": {
+          "decimals": "6",
+          "id": "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664",
+          "name": "USD Coin",
+          "symbol": "USDC.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "0.00104143414483505",
+        "trackedReserveETH": "202.069316025195284048",
+        "volumeUSD": "3620.17071963338488569"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x174137a4f27a9499eca7f10632578bce1bd1606c",
+        "reserve0": "586.773242700671316437",
+        "reserve1": "97.83308580706550926",
+        "reserveUSD": "195.66617161413101852",
+        "token0": {
+          "decimals": "18",
+          "id": "0x5947bb275c521040051d82396192181b413227a3",
+          "name": "Chainlink Token",
+          "symbol": "LINK.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "235.913107089412283371",
+        "trackedReserveETH": "195.66617161413101852",
+        "volumeUSD": "2203.239575980568178891609472288134"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x057ae34c93d2ccbc8d91132c4f882b363fd67aab",
+        "reserve0": "46329.485277826076293603",
+        "reserve1": "715481.128933863879756153",
+        "reserveUSD": "187.9406692248965657824016888100677",
+        "token0": {
+          "decimals": "18",
+          "id": "0x78ea17559b3d2cf85a7f9c2c704eda119db5e6de",
+          "name": "Avaware",
+          "symbol": "AVE"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "totalSupply": "172157.109292919463546875",
+        "trackedReserveETH": "187.9406692248965657824016888100677",
+        "volumeUSD": "8070.31636585920116604562657303326"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xc154c5b9e4c04dced5c4bae18580c67d5b7a62a8",
+        "reserve0": "10223.2858249627578322",
+        "reserve1": "86.396403914084218305",
+        "reserveUSD": "172.79280782816843661",
+        "token0": {
+          "decimals": "18",
+          "id": "0x60781c2586d68229fde47564546784ab3faca982",
+          "name": "Pangolin",
+          "symbol": "PNG"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "923.600704170567915978",
+        "trackedReserveETH": "172.79280782816843661",
+        "volumeUSD": "15954.44216358212064713779275546703"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x59ec63c75e66ecb99c858606d7986139690bef2a",
+        "reserve0": "2.165240412907815753",
+        "reserve1": "75.134744875106829291",
+        "reserveUSD": "150.269489750213658582",
+        "token0": {
+          "decimals": "18",
+          "id": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
+          "name": "Wrapped Ether",
+          "symbol": "WETH.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "12.476630384853598696",
+        "trackedReserveETH": "150.269489750213658582",
+        "volumeUSD": "7031.346220280253441214288225380488"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x13194cc7d607d2fd5768f4fe4a59b977fa9563c2",
+        "reserve0": "0.17193454",
+        "reserve1": "70.951242407379565941",
+        "reserveUSD": "141.902484814759131882",
+        "token0": {
+          "decimals": "8",
+          "id": "0x50b7545627a5162f82a992c33b87adc75187b218",
+          "name": "Wrapped BTC",
+          "symbol": "WBTC.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "0.000000637371989291",
+        "trackedReserveETH": "141.902484814759131882",
+        "volumeUSD": "1046.278722113949006946387239979922"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xe2ee3c891e25f96f42de0c2775f34cae9c2c873b",
+        "reserve0": "3355.768967286972600524",
+        "reserve1": "510721.359281610329198272",
+        "reserveUSD": "132.8721615915222099702141362120517",
+        "token0": {
+          "decimals": "18",
+          "id": "0x6e84a6216ea6dacc71ee8e6b0a5b7322eebc0fdd",
+          "name": "JoeToken",
+          "symbol": "JOE"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "totalSupply": "40186.723035667416719648",
+        "trackedReserveETH": "134.2316740017022352259875737197226",
+        "volumeUSD": "4166.203520959878892364243297384642"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x9c79f21cf0a8f07cbde22a3e19948a3a31ca8788",
+        "reserve0": "66.83542348670656723",
+        "reserve1": "7557.128257",
+        "reserveUSD": "133.67084697341313446",
+        "token0": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "token1": {
+          "decimals": "6",
+          "id": "0xc7198437980c041c805a1edcba50c1ce5db95118",
+          "name": "Tether USD",
+          "symbol": "USDT.e"
+        },
+        "totalSupply": "0.000676049639187712",
+        "trackedReserveETH": "133.67084697341313446",
+        "volumeUSD": "7662.64387710121431128233956042913"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x535f34e03b6312f3fae9b9a8cbb42be6a8ef5149",
+        "reserve0": "392.658046976326494095",
+        "reserve1": "493389.753934332023463836",
+        "reserveUSD": "130.6676029680039596695221781846858",
+        "token0": {
+          "decimals": "18",
+          "id": "0x5947bb275c521040051d82396192181b413227a3",
+          "name": "Chainlink Token",
+          "symbol": "LINK.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "totalSupply": "13493.534230778518522745",
+        "trackedReserveETH": "130.6676029680039596695221781846858",
+        "volumeUSD": "7760.063174817671858286677022154874"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xad79bc7e42a935ef5092fd78bc21a26654347056",
+        "reserve0": "64.62181006479337672",
+        "reserve1": "7369.085856948601787359",
+        "reserveUSD": "129.24362012958675344",
+        "token0": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xd586e7f844cea2f87f50152665bcbc2c279d8d70",
+          "name": "Dai Stablecoin",
+          "symbol": "DAI.e"
+        },
+        "totalSupply": "673.996661435330617907",
+        "trackedReserveETH": "129.24362012958675344",
+        "volumeUSD": "2904.560015403560698665599956116419"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xefcd112529d68c78b562c5c9bdd0531819890c0b",
+        "reserve0": "360502.99092979094087405",
+        "reserve1": "8259.554827266553475972",
+        "reserveUSD": "94.69596140694935024990629291347966",
+        "token0": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xc38f41a296a4493ff429f1238e030924a1542e50",
+          "name": "Snowball",
+          "symbol": "SNOB"
+        },
+        "totalSupply": "54081.1230757427762855",
+        "trackedReserveETH": "94.69596140694935024990629291347966",
+        "volumeUSD": "299.2822669509263996730274666098605"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x1b32b75e8fb771bc50a5425bd25fae30cc5f0a94",
+        "reserve0": "343171.012174077285210151",
+        "reserve1": "1463.842678906370103311",
+        "reserveUSD": "90.60331113686043139652916525326587",
+        "token0": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb1466d4cf0dcfc0bcddcf3500f473cdacb88b56d",
+          "name": "Weble Ecosystem Token",
+          "symbol": "WET"
+        },
+        "totalSupply": "22351.407476389528498482",
+        "trackedReserveETH": "90.60331113686043139652916525326587",
+        "volumeUSD": "74.64122416704401480163722366880923"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x12d5895c15111a798365b7b4cbc3b88014796e84",
+        "reserve0": "338126.658630677348595974",
+        "reserve1": "5054.996671653853811894",
+        "reserveUSD": "88.80030933498381650198496827064779",
+        "token0": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xd586e7f844cea2f87f50152665bcbc2c279d8d70",
+          "name": "Dai Stablecoin",
+          "symbol": "DAI.e"
+        },
+        "totalSupply": "40327.46319357777934681",
+        "trackedReserveETH": "88.80030933498381650198496827064779",
+        "volumeUSD": "1782.610592259654233817401737088036"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xf20de24c5eb37b8e83dd8817a2d8538b9b7ba070",
+        "reserve0": "307750.973992237681659365",
+        "reserve1": "1899.981231160135735741",
+        "reserveUSD": "80.88545282840660001732637674860225",
+        "token0": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+          "name": "Elk",
+          "symbol": "ELK"
+        },
+        "totalSupply": "23460.710663572212078446",
+        "trackedReserveETH": "80.88545282840660001732637674860225",
+        "volumeUSD": "1437.234677299470933186732837939992"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x6c86ed0e9ce0d0597c90ffbebd6197dcfa9466fd",
+        "reserve0": "1.152997740670848606",
+        "reserve1": "259131.72223425037312737",
+        "reserveUSD": "68.06107331212551620201212861653629",
+        "token0": {
+          "decimals": "18",
+          "id": "0x59414b3089ce2af0010e7523dea7e2b35d776ec7",
+          "name": "Yak Token",
+          "symbol": "YAK"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "totalSupply": "522.826770489292975262",
+        "trackedReserveETH": "68.06107331212551620201212861653629",
+        "volumeUSD": "7703.239487352741186393162229400211"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x27414725b2d67f55c97a808c01b9bdf062750016",
+        "reserve0": "29.417137782768835216",
+        "reserve1": "17.594630787731053466",
+        "reserveUSD": "58.834275565537670432",
+        "token0": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xf873633df9d5cdd62bb1f402499cc470a72a02d7",
+          "name": "Moonriver Token",
+          "symbol": "MOVR"
+        },
+        "totalSupply": "22.680588875341232611",
+        "trackedReserveETH": "58.834275565537670432",
+        "volumeUSD": "175.3719488279880777782130058090153"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x08e04a5e55e3368924d52f9ff171e90d35d6f295",
+        "reserve0": "108490.706002656261453227",
+        "reserve1": "212174.087358899132042299",
+        "reserveUSD": "55.73332175767162021674382429876072",
+        "token0": {
+          "decimals": "18",
+          "id": "0x4c9b4e1ac6f24cde3660d5e4ef1ebf77c710c084",
+          "name": "LydiaFinance Token",
+          "symbol": "LYD"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "totalSupply": "147830.564328554990576221",
+        "trackedReserveETH": "55.73332175767162021674382429876072",
+        "volumeUSD": "1028.647574774312865535193607717402"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xab9efa762ee0738a37b5d70701eee69cc5ad0cbc",
+        "reserve0": "184096.677012000763130163",
+        "reserve1": "3912.322108771755735682",
+        "reserveUSD": "50.06731234446678246999631719423638",
+        "token0": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xa5e59761ebd4436fa4d20e1a27cba29fb2471fc6",
+          "name": "Sherpa",
+          "symbol": "SHERPA"
+        },
+        "totalSupply": "26736.442972152869442383",
+        "trackedReserveETH": "50.06731234446678246999631719423638",
+        "volumeUSD": "86.41990760316389950223408718590077"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x19e37a6c16cbc0b1198d5e774bf4a25e83423a07",
+        "reserve0": "11.927702099711152038",
+        "reserve1": "145850.162388972740400958",
+        "reserveUSD": "39.86482654371137138332846826110342",
+        "token0": {
+          "decimals": "18",
+          "id": "0x63a72806098bd3d9520cc43356dd78afe5d386d9",
+          "name": "Aave Token",
+          "symbol": "AAVE.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "totalSupply": "1293.314898274378269121",
+        "trackedReserveETH": "39.86482654371137138332846826110342",
+        "volumeUSD": "1147.43835919919371951536973770747"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x6eefff6c295b129c5cd8b1e11f505caf69b15a06",
+        "reserve0": "961.745331339698727371",
+        "reserve1": "19.312649293580943614",
+        "reserveUSD": "38.625298587161887228",
+        "token0": {
+          "decimals": "18",
+          "id": "0x6e84a6216ea6dacc71ee8e6b0a5b7322eebc0fdd",
+          "name": "JoeToken",
+          "symbol": "JOE"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "133.804334032310855819",
+        "trackedReserveETH": "38.625298587161887228",
+        "volumeUSD": "933.021999661084009078"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xc25efec924dc891b34122b370d70c3ff5acce18f",
+        "reserve0": "0.04085113",
+        "reserve1": "131286.39060787749653524",
+        "reserveUSD": "35.60366419342818064350990415317423",
+        "token0": {
+          "decimals": "8",
+          "id": "0x50b7545627a5162f82a992c33b87adc75187b218",
+          "name": "Wrapped BTC",
+          "symbol": "WBTC.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "totalSupply": "0.000706587494490949",
+        "trackedReserveETH": "35.60366419342818064350990415317423",
+        "volumeUSD": "4739.1668042632952747740478570845"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x146a9ec8a4043aa9872cdfc50d505b129b691e51",
+        "reserve0": "89286.69842133889905695",
+        "reserve1": "708.610587903666740213",
+        "reserveUSD": "24.30590590704691206654460069690392",
+        "token0": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe896cdeaac9615145c0ca09c8cd5c25bced6384c",
+          "name": "PenguinToken",
+          "symbol": "PEFI"
+        },
+        "totalSupply": "7843.871525778841309934",
+        "trackedReserveETH": "24.30590590704691206654460069690392",
+        "volumeUSD": "285.9209360268604654504559037322205"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x4829c42f03b59da15b2298548e96565a2e3497ef",
+        "reserve0": "252.5389940457811937",
+        "reserve1": "90844.374829530615102695",
+        "reserveUSD": "23.79037334021630485033016223970612",
+        "token0": {
+          "decimals": "18",
+          "id": "0x37b608519f91f70f2eeb0e5ed9af4061722e4f76",
+          "name": "SushiToken",
+          "symbol": "SUSHI.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "totalSupply": "4693.99856593530591827",
+        "trackedReserveETH": "23.79037334021630485033016223970612",
+        "volumeUSD": "1169.984377532481705608387782401603"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x8edacc39848cfc2d02bd99374fa6ea1bf33da5fa",
+        "reserve0": "33376.094258770120423365",
+        "reserve1": "79221.293304671236470087",
+        "reserveUSD": "20.8065816645247107047970484264911",
+        "token0": {
+          "decimals": "18",
+          "id": "0x488f73cddda1de3664775ffd91623637383d6404",
+          "name": "YetiSwap",
+          "symbol": "YTS"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "totalSupply": "50587.743611225193802159",
+        "trackedReserveETH": "20.8065816645247107047970484264911",
+        "volumeUSD": "382.9347293590243478897261428605928"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x80b9318beeff7ac4efb91296269aa85e4bfd8c23",
+        "reserve0": "7533.905881545298318733",
+        "reserve1": "72484.789170851250377179",
+        "reserveUSD": "19.06684923394480913677325260633687",
+        "token0": {
+          "decimals": "18",
+          "id": "0x8729438eb15e2c8b576fcc6aecda6a148776c0f5",
+          "name": "BENQI",
+          "symbol": "QI"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "totalSupply": "22648.387798957970606511",
+        "trackedReserveETH": "19.06684923394480913677325260633687",
+        "volumeUSD": "1913.620932539523282665236155703487"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xb39517659a29020684d7f3fbef3b852f7156661c",
+        "reserve0": "32758.375489772191637966",
+        "reserve1": "15.946144098997022799",
+        "reserveUSD": "9.123767096611237107550062802137552",
+        "token0": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb3fe5374f67d7a22886a0ee082b2e2f9d2651651",
+          "name": "ChainLink Token",
+          "symbol": "LINK"
+        },
+        "totalSupply": "680.903359957460428554",
+        "trackedReserveETH": "9.123767096611237107550062802137552",
+        "volumeUSD": "27818.10587232695021716789889564834"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xd0945d9985f746317f19fa152a615ebac77ad534",
+        "reserve0": "28512.035202430965007259",
+        "reserve1": "398.709796",
+        "reserveUSD": "8.773471213662297275939147836067648",
+        "token0": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "token1": {
+          "decimals": "6",
+          "id": "0xde3a24028580884448a5397872046a019649b084",
+          "name": "Tether USD",
+          "symbol": "USDT"
+        },
+        "totalSupply": "0.003054770049265552",
+        "trackedReserveETH": "8.773471213662297275939147836067648",
+        "volumeUSD": "83160.57230931941193649880074083989"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xde2bd6ef7841e53ad1b2ea41844c6ecda02c12de",
+        "reserve0": "27335.965420092542441451",
+        "reserve1": "33.98276033525490147",
+        "reserveUSD": "7.378804106350440315804391517745749",
+        "token0": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xd1c3f94de7e5b45fa4edbba472491a9f4b166fc4",
+          "name": "Avalaunch",
+          "symbol": "XAVA"
+        },
+        "totalSupply": "933.401167810824329779",
+        "trackedReserveETH": "7.378804106350440315804391517745749",
+        "volumeUSD": "2029.45116399785250212680026721003"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x81e5b8a9704101f625ec325b3d12e717f199c5ac",
+        "reserve0": "17544.608159098034659448",
+        "reserve1": "0.038779155963381182",
+        "reserveUSD": "5.08969425844662956415687114486567",
+        "token0": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xf20d962a6c8f70c731bd838a3a388d7d48fa6e15",
+          "name": "Ether",
+          "symbol": "ETH"
+        },
+        "totalSupply": "24.378202727490677098",
+        "trackedReserveETH": "5.08969425844662956415687114486567",
+        "volumeUSD": "40406.9489812122375823084441961599"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x1e42cfa68e44a4fcc28b06e9f76f27bc90071eb6",
+        "reserve0": "2.542562715105174577",
+        "reserve1": "0.039073912000362035",
+        "reserveUSD": "5.085125430210349154",
+        "token0": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xf20d962a6c8f70c731bd838a3a388d7d48fa6e15",
+          "name": "Ether",
+          "symbol": "ETH"
+        },
+        "totalSupply": "0.311864461593572953",
+        "trackedReserveETH": "5.085125430210349154",
+        "volumeUSD": "29997.51887695750508678200858912448"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x5edb69f59cdbe4f6e8dc9a880a66042b3553dd39",
+        "reserve0": "2.072976480729303809",
+        "reserve1": "6.864804451726165587",
+        "reserveUSD": "4.145952961458607618",
+        "token0": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb3fe5374f67d7a22886a0ee082b2e2f9d2651651",
+          "name": "ChainLink Token",
+          "symbol": "LINK"
+        },
+        "totalSupply": "3.706104515257897242",
+        "trackedReserveETH": "4.145952961458607618",
+        "volumeUSD": "18108.85096538220318223746605284519"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xb057102268d2509581053576cc69386ed37f5a3f",
+        "reserve0": "0.756296806499807936",
+        "reserve1": "76.99704",
+        "reserveUSD": "1.512593612999615872",
+        "token0": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "token1": {
+          "decimals": "6",
+          "id": "0xde3a24028580884448a5397872046a019649b084",
+          "name": "Tether USD",
+          "symbol": "USDT"
+        },
+        "totalSupply": "0.000007288463287238",
+        "trackedReserveETH": "1.512593612999615872",
+        "volumeUSD": "93282.76424271229270026342957507946"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x8ab494af331453595a357e7eb4e96f801c4cc42e",
+        "reserve0": "1.655705298992223657",
+        "reserve1": "198.658488257059572651",
+        "reserveUSD": "0.06134732567613179518466579821593096",
+        "token0": {
+          "decimals": "18",
+          "id": "0x21c5402c3b7d40c89cc472c9df5dd7e51bbab1b1",
+          "name": "TUNDRAToken",
+          "symbol": "TUNDRA"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "totalSupply": "18.126660177588301371",
+        "trackedReserveETH": "0.1226946513522635903693315964318619",
+        "volumeUSD": "0"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x3f27f625d28626cadcc4e7c1a0389d791999de37",
+        "reserve0": "583.166820138942026675",
+        "reserve1": "469.580774338732434932",
+        "reserveUSD": "0.07046892408981052997078735397653283",
+        "token0": {
+          "decimals": "18",
+          "id": "0x617724974218a18769020a70162165a539c07e8a",
+          "name": "OliveCash Token",
+          "symbol": "OLIVE"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+          "name": "Canary",
+          "symbol": "CNR"
+        },
+        "totalSupply": "519.164743711332610805",
+        "trackedReserveETH": "0.07046892408981052997078735397653283",
+        "volumeUSD": "141.556378360673954504803656342583"
+      }
+    ]
+  }
+}

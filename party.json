@@ -1,0 +1,358 @@
+{
+  "data": {
+    "pairs": [
+      {
+        "__typename": "Pair",
+        "id": "0x86bd530563685eb34380d38802f255af29d15ae7",
+        "reserve0": "26.156539803642709288",
+        "reserve1": "897.844393228589789783",
+        "reserveUSD": "206334.0759146234381115447069214841",
+        "token0": {
+          "decimals": "18",
+          "id": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
+          "name": "Wrapped Ether",
+          "symbol": "WETH.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "150.710705776428813422",
+        "trackedReserveETH": "1795.688786457179579566",
+        "volumeUSD": "8628266.197135803192922571772946299"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x6408c1b04d283d85c940045787845a078ba19afc",
+        "reserve0": "64001.909647",
+        "reserve1": "554.047405148367057744",
+        "reserveUSD": "127873.2106225262219643333046455005",
+        "token0": {
+          "decimals": "6",
+          "id": "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664",
+          "name": "USD Coin",
+          "symbol": "USDC.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "0.005738570917890322",
+        "trackedReserveETH": "1108.094810296734115488",
+        "volumeUSD": "1240711.990705429311599043539100493"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xf83575ddc6744c07ca49a33f89e9581b9b20653e",
+        "reserve0": "550.733908014202857716",
+        "reserve1": "63282.219526",
+        "reserveUSD": "126564.4390519999999875756865275926",
+        "token0": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "token1": {
+          "decimals": "6",
+          "id": "0xc7198437980c041c805a1edcba50c1ce5db95118",
+          "name": "Tether USD",
+          "symbol": "USDT.e"
+        },
+        "totalSupply": "0.00564996386232937",
+        "trackedReserveETH": "1101.467816028405715432",
+        "volumeUSD": "1967021.883853644502427681186675427"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x379842a6cd96a70ebce66004275ce0c68069df62",
+        "reserve0": "2966183.203519983262566531",
+        "reserve1": "304.323032630332697601",
+        "reserveUSD": "69198.29019548971708902802956257601",
+        "token0": {
+          "decimals": "18",
+          "id": "0x25afd99fcb474d7c336a2971f26966da652a92bc",
+          "name": "PARTY V2",
+          "symbol": "PARTY"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "29384.03560770292655646",
+        "trackedReserveETH": "608.646065260665395202",
+        "volumeUSD": "1010560.85397369469131373758672162"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xa09bab7c83b8d3246484e7b822dd3f7002e5d5f1",
+        "reserve0": "216388.828266335469216382",
+        "reserve1": "278.815991643858518393",
+        "reserveUSD": "63628.84424201057717397548897061777",
+        "token0": {
+          "decimals": "18",
+          "id": "0x8729438eb15e2c8b576fcc6aecda6a148776c0f5",
+          "name": "BENQI",
+          "symbol": "QI"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "7664.17028813612336627",
+        "trackedReserveETH": "557.631983287717036786",
+        "volumeUSD": "307182.3163837918530796539188004634"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x067ca3c3baf95804e5073c102fa7e2279e0e71d8",
+        "reserve0": "16891.426196005275190788",
+        "reserve1": "16929.692587",
+        "reserveUSD": "32760.9060487303051362874290829006",
+        "token0": {
+          "decimals": "18",
+          "id": "0x9610b01aaa57ec026001f7ec5cface51bfea0ba6",
+          "name": "Binance-Peg BUSD Token",
+          "symbol": "BUSD"
+        },
+        "token1": {
+          "decimals": "6",
+          "id": "0xc7198437980c041c805a1edcba50c1ce5db95118",
+          "name": "Tether USD",
+          "symbol": "USDT.e"
+        },
+        "totalSupply": "0.016867579105868464",
+        "trackedReserveETH": "326.72863198221068332005027838713",
+        "volumeUSD": "17055.56688056092724790933214837147"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xc643255ec872e681b66f19b4ab8ec3bb5ef3216b",
+        "reserve0": "15212.379120637038322063",
+        "reserve1": "132.3111175655644549",
+        "reserveUSD": "30194.83725244599483849358871169639",
+        "token0": {
+          "decimals": "18",
+          "id": "0x130966628846bfd36ff31a822705796e8cb8c18d",
+          "name": "Magic Internet Money",
+          "symbol": "MIM"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "1389.903242562113310999",
+        "trackedReserveETH": "264.6222351311289097999999999999999",
+        "volumeUSD": "471616.3175009349010759540339975404"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x77eb05e7f557fe8003047fb3be690dc429c511ba",
+        "reserve0": "127353.722093727",
+        "reserve1": "126.248731151463398248",
+        "reserveUSD": "28118.10017724537962662564909400195",
+        "token0": {
+          "decimals": "9",
+          "id": "0x90842eb834cfd2a1db0b1512b254a18e4d396215",
+          "name": "Good Bridging",
+          "symbol": "GB"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "0.115917737820352925",
+        "trackedReserveETH": "252.4974623029267964959999999999999",
+        "volumeUSD": "761772.529141427581914497616072338"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xc61f75a229cabaf364fcf80fc71b93f8cb65d2f0",
+        "reserve0": "136625564554.488369849397942033",
+        "reserve1": "110.916391324354516398",
+        "reserveUSD": "24317.2879265903108828420812483891",
+        "token0": {
+          "decimals": "18",
+          "id": "0x65378b697853568da9ff8eab60c13e1ee9f4a654",
+          "name": "Husky",
+          "symbol": "HUSKY"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "3879660.627909994456577504",
+        "trackedReserveETH": "221.832782648709032796",
+        "volumeUSD": "24341.07763567657145369524047496089"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xcd5043292d99d63f42f0447d77e5ca048506bad6",
+        "reserve0": "117702.014171421133796631",
+        "reserve1": "73.195530235051956412",
+        "reserveUSD": "16370.33947942464454471053940109991",
+        "token0": {
+          "decimals": "18",
+          "id": "0x69a61f38df59cbb51962e69c54d39184e21c27ec",
+          "name": "PARTY",
+          "symbol": "PARTY"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "248.406070201316197741",
+        "trackedReserveETH": "146.391060470103912824",
+        "volumeUSD": "11145985.44840618221490196025419878"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xa9e3904bd06a9e4ec01df8606d335804aa557b9e",
+        "reserve0": "0.15366179",
+        "reserve1": "63.102427744714443323",
+        "reserveUSD": "14563.93434715537428337067705562032",
+        "token0": {
+          "decimals": "8",
+          "id": "0x50b7545627a5162f82a992c33b87adc75187b218",
+          "name": "Wrapped BTC",
+          "symbol": "WBTC.e"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "0.000030454283264931",
+        "trackedReserveETH": "126.204855489428886646",
+        "volumeUSD": "339518.6975846588384119409086788301"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0xed326435e5e83dc2263813f09fb95e8d71d70030",
+        "reserve0": "26.325385392094165517",
+        "reserve1": "17256.91812957",
+        "reserveUSD": "6032.117800638954175511354309317695",
+        "token0": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "token1": {
+          "decimals": "8",
+          "id": "0xce829a89d4a55a63418bcc43f00145adef0edb8e",
+          "name": "renDOGE",
+          "symbol": "renDOGE"
+        },
+        "totalSupply": "0.006692597502969047",
+        "trackedReserveETH": "52.65077078418833103400000000000001",
+        "volumeUSD": "8600.367616990468510751095665175994"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x3f7e7ca0046c0e8b4f83114d06df56861f3e3cd4",
+        "reserve0": "3286040.625547151072452708",
+        "reserve1": "18.169306043785262785",
+        "reserveUSD": "4193.445320766230113667669108128337",
+        "token0": {
+          "decimals": "18",
+          "id": "0x440abbf18c54b2782a4917b80a1746d3a2c2cce1",
+          "name": "SHIBAVAX",
+          "symbol": "SHIBX"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "6305.339168580950097606",
+        "trackedReserveETH": "36.33861208757052557000000000000001",
+        "volumeUSD": "2198.390096287290215298006495912368"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x42bffa3b8b70f8d3fff4838bb87f1802575bbd36",
+        "reserve0": "15.400296601739522746",
+        "reserve1": "3651899.459546132",
+        "reserveUSD": "3134.602864615779709806671482307798",
+        "token0": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "token1": {
+          "decimals": "9",
+          "id": "0xd03392cf4f60fab2fbea38b7d2b826c70b0208a0",
+          "name": "WOLFI",
+          "symbol": "WOLFI"
+        },
+        "totalSupply": "0.20652571629777751",
+        "trackedReserveETH": "30.800593203479045492",
+        "volumeUSD": "3164.421416958964100832876726034911"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x258429d6d51008a3af0af565062af01556408f7a",
+        "reserve0": "2352.967152461909112988",
+        "reserve1": "11.98004633285169212",
+        "reserveUSD": "2672.8587892944505910127586565208",
+        "token0": {
+          "decimals": "18",
+          "id": "0x1ecd47ff4d9598f89721a2866bfeb99505a413ed",
+          "name": "AVME",
+          "symbol": "AVME"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "totalSupply": "167.527133396534987274",
+        "trackedReserveETH": "23.96009266570338424",
+        "volumeUSD": "3444.246985592964661004956018951948"
+      },
+      {
+        "__typename": "Pair",
+        "id": "0x8151c05ae3c733284855f841a27e756c10610cce",
+        "reserve0": "7.989461836203260843",
+        "reserve1": "456.358534958688038124",
+        "reserveUSD": "1641.86745611140876338268117546053",
+        "token0": {
+          "decimals": "18",
+          "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+          "name": "Wrapped AVAX",
+          "symbol": "WAVAX"
+        },
+        "token1": {
+          "decimals": "18",
+          "id": "0xe896cdeaac9615145c0ca09c8cd5c25bced6384c",
+          "name": "PenguinToken",
+          "symbol": "PEFI"
+        },
+        "totalSupply": "59.273983481706055906",
+        "trackedReserveETH": "15.978923672406521686",
+        "volumeUSD": "14526.30889611408603155929636017955"
+      }
+    ]
+  }
+}

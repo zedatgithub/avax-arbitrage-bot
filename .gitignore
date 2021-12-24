@@ -11,15 +11,3 @@ coverage
 .env
 artifacts
 cache
-typechain
-
-
-pangolin.json
-party.json
-traderjoe.json
-yeti.json
-baguette.json
-canary.json
-elk.json
-config.json
-lydia.json
