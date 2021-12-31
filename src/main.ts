@@ -66,7 +66,7 @@ const getOptimalAmount = (path: Path): null | bigint => {
     if (Ea > Eb) {
         return null
     }
-   
+
     let optimal = Ea * Eb * 997n * 1000n;
     // sqrt(optimal)
     let z = (optimal + 1n) / 2n;
@@ -150,7 +150,7 @@ Object.keys(edges).forEach(poolAddr => {
     pool.token0.pools.push(pool)
     pool.token0.poolsMap.set(pool.token1, pool.token0.poolsMap.get(pool.token1) || [])
     pool.token0.poolsMap.get(pool.token1).push(pool)
-    
+
     pool.token1.pools.push(pool)
     pool.token1.poolsMap.set(pool.token0, pool.token1.poolsMap.get(pool.token0) || [])
     pool.token1.poolsMap.get(pool.token0).push(pool)
@@ -162,7 +162,7 @@ Object.keys(edges).forEach(poolAddr => {
 const printPath = (p: Path) : string => p.map(t => t.swapFrom.symbol + "/" + t.swapTo.symbol).join(" -> ")
 
 // Computes all potential paths to perform an arbitrage trade for initialToken
-// maxLength limits the path length as this will lead to exponential blowup pretty fast 
+// maxLength limits the path length as this will lead to exponential blowup pretty fast
 const computePaths = (initialToken: Token, maxLength: number, endToken: Token = initialToken): Path[] => {
     const paths: Path[] = []
     const computePathsInner = (path: Path, visitedPools: Set<Pool>, visitedTokens: Set<Token>, n: number) => {
@@ -205,7 +205,7 @@ const computePaths = (initialToken: Token, maxLength: number, endToken: Token = 
 }
 
 const strategies = config.strategies.map(strategy => {
-    const ROOT = nodes[strategy.startToken]    
+    const ROOT = nodes[strategy.startToken]
     const endToken = nodes[strategy.endToken];
 
     let paths = computePaths(ROOT, strategy.maxLength, endToken)
@@ -228,7 +228,7 @@ const dirsToInt16 = (path: Path) => {
         if (path[i].zeroForOne == false) {
             continue;
         }
-        
+
         out = out | (1 << i);
     }
     return "0x" + out.toString(16);
@@ -236,13 +236,7 @@ const dirsToInt16 = (path: Path) => {
 
 
 export const main = async () => {
-    const provider = new ethers.providers.JsonRpcProvider({
-        url: config.providerUrl,
-    },
-    {
-        name: "Avalanche",
-        chainId: 43114
-    })
+    const provider = new ethers.providers.WebSocketProvider(config.providerUrl, { chainId: 43114, name: "Avalanche" })
 
     const signer = new ethers.Wallet(Buffer.from(process.env.PRIVATE_KEY.slice(2), 'hex')).connect(provider)
 
@@ -288,10 +282,14 @@ export const main = async () => {
     const traderAddr = traderAddress.slice(2).toLowerCase().padEnd(40, '0')
 
     let _block = null;
-    provider.on("block", block => {
+    let baseGasPrice = await signer.getGasPrice()
+    let maxPrioFee = ethers.utils.parseUnits("18", 9).toBigInt()
+    let gp = baseGasPrice.toBigInt() + maxPrioFee
+    provider.on("block", async block => {
         _block = block
+        baseGasPrice = await signer.getGasPrice()
+        gp = baseGasPrice.toBigInt() + maxPrioFee
     })
-    
 
     let previous = null
     setInterval(async () => {
@@ -303,35 +301,35 @@ export const main = async () => {
             return
         }
         previous = block;
-        const gp = (await signer.getGasPrice()).toBigInt() + ethers.utils.parseUnits("5", 9).toBigInt()
-        const minProfit = gp * 300000n;
-        const noncep = signer.getTransactionCount()
         
+        const minProfit = gp * 300000n;
+
         const usedPools = new Set<string>()
         const outCalls: Array<{
             pool0: string,
             amount0: string,
             amount1: string,
             profit: BigInt,
-            restCalls: Array<{target:string,data:string}>
+            restCalls: Array<{target:string,data:string}>,
+	    path: Path
         }> = []
-        
+        const start = Date.now()
         const strats = strategies.map(async strategy => {
-            const possiblePaths = strategy.paths
+	    const possiblePaths = strategy.paths
             let optimalPaths: [Path, bigint, bigint, bigint][] = []
 
             let bestSoFar = 0n
             for (let path of possiblePaths) {
-                
+
                 if (lockedPaths.has(path)) {
                     continue
                 }
                 const optimal = getOptimalAmount(path)
-            
-                if (optimal == null || optimal < 0n) {
+
+                if (optimal == null || optimal < 0n) {
                     continue
                 }
-                
+
                 const output = getAmountOutPath(optimal, path)
                 const profit = output - optimal
                 if (bestSoFar < profit) {
@@ -341,14 +339,15 @@ export const main = async () => {
                     continue
                 }
                 optimalPaths.push([path, optimal, output, profit])
-                break;
-                // if (optimalPaths.length > 3) {
-                //     break;
-                // }
+		        break
+		        /*
+                if (optimalPaths.length > 3) {
+                    break;
+                }
 
-                // if (profit >= minProfit * 10n) {
-                //     break
-                // }
+                if (profit >= minProfit * 10n) {
+                     break
+                }*/
             }
 
             if (optimalPaths.length == 0) {
@@ -356,7 +355,7 @@ export const main = async () => {
             }
 
             optimalPaths = optimalPaths.sort((l,r) => Number(r[3] - l[3]))
-            
+            console.log("Testing paths");
             await Promise.all(optimalPaths.map(async ([bestTradePath,,,profit]) => {
                 const dirs = dirsToInt16(bestTradePath)
                 const path = bestTradePath.map(p => p.pool.id)
@@ -372,7 +371,7 @@ export const main = async () => {
                         path,
                         bestTradePath[bestTradePath.length - 1].swapTo.id
                     )
-                    
+
                     if (res[0].toBigInt() < minProfit) {
                         return;
                     }
@@ -382,7 +381,7 @@ export const main = async () => {
                             return
                         }
                     }
-                    
+
                     const calls = res[1].filter(i => i.target !== '0x0000000000000000000000000000000000000000')
                     const firstCall = calls[0]
                     const restCalls = calls.slice(1).map(call => ({
@@ -391,35 +390,29 @@ export const main = async () => {
                     }))
                     const amount0 = "0x" + firstCall.data.slice(10, 10 + 64)
                     const amount1 = "0x" + firstCall.data.slice(10 + 64, 10 + 64 + 64)
+
                     outCalls.push({
                         pool0: path[0],
                         amount0,
                         amount1,
                         restCalls,
-                        profit: res[0].toBigInt()
+                        profit: res[0].toBigInt(),
+			            path: bestTradePath
                     })
                 } catch(e) {
+		            // console.log(e);
                 }
             }))
         })
 
-        nonce = await noncep
-
         await Promise.all(strats)
-
+        if (outCalls.length !== 0) {
+          console.log("Executing paths!");
+        }
         await Promise.all(outCalls.map(async call => {
             const txNonce = nonce ++;
             try {
-                await trader.callStatic.arbTradeFlash(
-                    call.pool0,
-                    call.amount0,
-                    call.amount1,
-                    call.restCalls,
-                    {
-                        nonce: txNonce,
-                    }
-                )
-
+		        console.log("Executing " + printPath(call.path))
                 const tx = await trader.arbTradeFlash(
                     call.pool0,
                     call.amount0,
@@ -427,13 +420,17 @@ export const main = async () => {
                     call.restCalls,
                     {
                         nonce: txNonce,
-                        maxPriorityFeePerGas: ethers.utils.parseUnits("5", 9).toBigInt()
+			            gasLimit: 300000,
+                        gasPrice: baseGasPrice,
+                        maxPriorityFeePerGas: maxPrioFee
                     }
                 )
+                console.log(Date.now() - start)
                 console.log(tx.hash)
             } catch(e) {
+		        console.log(e);
             }
-            
+
         }))
-    }, 50)
+    }, 40)
 }
