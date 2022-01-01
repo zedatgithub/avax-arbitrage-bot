@@ -33,6 +33,7 @@
     "@typescript-eslint/parser": "^4.19.0",
     "esbuild": "^0.11.11",
     "eslint": "^7.22.0",
+    "prettier": "2.5.1",
     "ts-node": "^9.1.1",
     "typechain": "^5.1.2",
     "typedoc": "^0.20.35",
@@ -43,6 +44,7 @@
     "@nomiclabs/hardhat-waffle": "^2.0.1",
     "@openzeppelin/contracts": "^4.3.2",
     "dotenv": "^10.0.0",
+    "eslint-config-prettier": "^8.3.0",
     "ethers": "^5.4.7",
     "hardhat": "^2.6.4"
   }

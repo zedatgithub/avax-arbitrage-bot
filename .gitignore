@@ -4,6 +4,7 @@
 /dist/
 /docs/
 .idea/*
+config.json
 
 .DS_Store
 coverage

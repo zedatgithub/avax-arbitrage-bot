@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 pragma experimental ABIEncoderV2;
 import "./interfaces/IUniswapV2Pair.sol";
 
-contract Trader {
+contract TraderExecutor {
     struct Call {
         address target;
         bytes data;

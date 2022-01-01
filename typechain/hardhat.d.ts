@@ -41,9 +41,13 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.Multicall2__factory>;
     getContractFactory(
-      name: "Trader",
+      name: "TraderExecutor",
       signerOrOptions?: ethers.Signer | FactoryOptions
-    ): Promise<Contracts.Trader__factory>;
+    ): Promise<Contracts.TraderExecutor__factory>;
+    getContractFactory(
+      name: "TraderNew",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.TraderNew__factory>;
     getContractFactory(
       name: "TraderSimulator",
       signerOrOptions?: ethers.Signer | FactoryOptions
@@ -85,10 +89,15 @@ declare module "hardhat/types/runtime" {
       signer?: ethers.Signer
     ): Promise<Contracts.Multicall2>;
     getContractAt(
-      name: "Trader",
+      name: "TraderExecutor",
       address: string,
       signer?: ethers.Signer
-    ): Promise<Contracts.Trader>;
+    ): Promise<Contracts.TraderExecutor>;
+    getContractAt(
+      name: "TraderNew",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.TraderNew>;
     getContractAt(
       name: "TraderSimulator",
       address: string,

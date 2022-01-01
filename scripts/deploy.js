@@ -14,15 +14,10 @@ async function main() {
   // await hre.run('compile');
 
   // We get the contract to deploy
-  const Trader = await hre.ethers.getContractFactory("Trader");
+  const Trader = await hre.ethers.getContractFactory("TraderNew");
   const trader = await Trader.deploy();
   await trader.deployed();
   console.log("Trader deployed to:", trader.address);
-
-  const TraderSimulator = await hre.ethers.getContractFactory("TraderSimulator");
-  const simulator = await TraderSimulator.deploy();
-  await simulator.deployed();
-  console.log("TraderSimulator deployed to:", simulator.address);
 
   // const MultiCall2 = await hre.ethers.getContractFactory("Multicall2");
   // const multicall2 = await MultiCall2.deploy();

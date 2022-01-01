@@ -8,7 +8,8 @@ export type { IERC20 } from "./IERC20";
 export type { IUniswapV2Pair } from "./IUniswapV2Pair";
 export type { IWETH9 } from "./IWETH9";
 export type { Multicall2 } from "./Multicall2";
-export type { Trader } from "./Trader";
+export type { TraderExecutor } from "./TraderExecutor";
+export type { TraderNew } from "./TraderNew";
 export type { TraderSimulator } from "./TraderSimulator";
 
 export { Ownable__factory } from "./factories/Ownable__factory";
@@ -18,5 +19,6 @@ export { IERC20__factory } from "./factories/IERC20__factory";
 export { IUniswapV2Pair__factory } from "./factories/IUniswapV2Pair__factory";
 export { IWETH9__factory } from "./factories/IWETH9__factory";
 export { Multicall2__factory } from "./factories/Multicall2__factory";
-export { Trader__factory } from "./factories/Trader__factory";
+export { TraderExecutor__factory } from "./factories/TraderExecutor__factory";
+export { TraderNew__factory } from "./factories/TraderNew__factory";
 export { TraderSimulator__factory } from "./factories/TraderSimulator__factory";

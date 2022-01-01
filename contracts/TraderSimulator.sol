@@ -4,12 +4,12 @@ pragma experimental ABIEncoderV2;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "./interfaces/IUniswapV2Pair.sol";
 import "./LowGasSafeMath.sol";
+
 /**
-* Trading contract for doing arbitrage trading WETH on pools with the same
-* interface as uniswap like (CRO, SUSHI and ...)
-*
-* The contract is gas efficient in the sense that it does not
-* derive pool addresses, and it skips the wrap/unwrap steps.
+* Trading contract for trading on uniswap-like pools.
+* This version will trace out and exact execution plan, and the user will use the TraderExecutor
+* To run the trace. This is a much more gas efficient way of executing trades, but is not always feasible because
+* of time constraints
 */
 
 contract TraderSimulator {
