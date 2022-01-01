@@ -340,19 +340,13 @@ export const main = async () => {
       optimalPaths = optimalPaths.sort((l, r) => Number(r[3] - l[3]))
       console.log("Executing trades");
 
-      await Promise.all(optimalPaths.map(async ([bestTradePath, inputAmount, outputs,]) => {
+      await Promise.all(optimalPaths.map(async ([bestTradePath, inputAmount, outputs, profit]) => {
         const pools = bestTradePath.map(p => p.pool.id)
         const reserves: bigint[] = bestTradePath.map(i => i.pool.reserve0 * i.pool.reserve1)
         try {
-          
-          const gasSettings = (trades.tx.maxFeePerGas == null &&
-                       trades.tx.maxPriorityFeePerGas == null) ? {
-            gasPrice: trades.tx.gasPrice?.sub(1n),
-          } : {
-            gasPrice: trades.tx.gasPrice,
-            maxPriorityFeePerGas: trades.tx.maxPriorityFeePerGas,
-            maxFeePerGas: trades.tx.maxFeePerGas,
-          }
+
+          console.log("Executing " + printPath(bestTradePath))
+          console.log("Expected profit " + ethers.utils.formatEther(profit))
 
           const tx = await trader.arbTradeFlash(
             inputAmount,
@@ -361,14 +355,16 @@ export const main = async () => {
             reserves,
             bestTradePath[bestTradePath.length - 1].swapTo.id,
             {
-              ...gasSettings,
+              gasPrice: trades.tx.gasPrice,
+              maxPriorityFeePerGas: trades.tx.maxPriorityFeePerGas,
               nonce: nonce++,
               gasLimit: 300000,
             }
           )
-          console.log(tx)
+          console.log("Hash: " + tx.hash)
         } catch (e) {
-          // console.log(e);
+          console.log(e)
+          console.log(printPath(bestTradePath) + " failed")
         }
       }))
     })
