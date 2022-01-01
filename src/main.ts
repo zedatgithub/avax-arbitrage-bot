@@ -345,26 +345,26 @@ export const main = async () => {
         const reserves: bigint[] = bestTradePath.map(i => i.pool.reserve0 * i.pool.reserve1)
         try {
           
-          const gasSettings = trades.tx.maxFeePerGas == null &&
-                       trades.tx.maxPriorityFeePerGas == null ? {
+          const gasSettings = (trades.tx.maxFeePerGas == null &&
+                       trades.tx.maxPriorityFeePerGas == null) ? {
             gasPrice: trades.tx.gasPrice?.sub(1n),
           } : {
             gasPrice: trades.tx.gasPrice,
-            maxPriorityFeePerGas: trades.tx.maxPriorityFeePerGas?.sub(1),
-            maxFeePerGas: trades.tx.maxFeePerGas?.sub(1),
+            maxPriorityFeePerGas: trades.tx.maxPriorityFeePerGas,
+            maxFeePerGas: trades.tx.maxFeePerGas,
           }
 
-          const tx = await trader.callStatic.arbTradeFlash(
+          const tx = await trader.arbTradeFlash(
             inputAmount,
             outputs,
             pools,
             reserves,
             bestTradePath[bestTradePath.length - 1].swapTo.id,
-            // {
-            //   ...gasSettings,
-            //   nonce: nonce++,
-            //   gasLimit: 300000,
-            // }
+            {
+              ...gasSettings,
+              nonce: nonce++,
+              gasLimit: 300000,
+            }
           )
           console.log(tx)
         } catch (e) {
