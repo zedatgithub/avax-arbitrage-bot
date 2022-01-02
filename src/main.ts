@@ -251,6 +251,7 @@ export const main = async () => {
     multiCallAbi,
     provider
   )
+  const ourHashes = new Set<string>()
 
   // Pull in reserves for all pools
   const allPoolAddresses = Object.keys(edges)
@@ -332,6 +333,7 @@ export const main = async () => {
           gasLimit: 300000,
         }
       )
+      ourHashes.add(tx.hash)
       console.log("Depending on " + trades.tx.hash)
       console.log("Our hash: " + tx.hash)
     } catch (e) {
@@ -341,6 +343,9 @@ export const main = async () => {
   }
 
   watchForTrades(trades => {
+    if (ourHashes.has(trades.tx.hash)) {
+      return
+    }
     gp = baseGasPrice.toBigInt() + maxPrioFee
 
     if (block == previous) {
@@ -360,7 +365,7 @@ export const main = async () => {
         reserve1: BigInt(t.reserve1),
       }
     })
-    
+    const optimalPaths: Array<[Path, bigint, bigint[], bigint]> = []
     strategies.map(async strategy => {
       const possiblePaths = strategy.paths
 
@@ -376,8 +381,14 @@ export const main = async () => {
         if (profit < minProfit) {
           continue
         }
-        executeTrade(trades, [path, optimal, output, profit])
+
+        optimalPaths.push([path, optimal, output, profit])
       }
     })
+    if (optimalPaths.length === 0) {
+      return
+    }
+    optimalPaths.sort((l, r) => Number(r[3] - l[3]))
+    executeTrade(trades, optimalPaths[0])
   })
 }
