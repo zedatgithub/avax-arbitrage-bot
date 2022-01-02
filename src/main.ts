@@ -342,7 +342,7 @@ export const main = async () => {
     }
   }
 
-  watchForTrades(trades => {
+  watchForTrades(async trades => {
     if (ourHashes.has(trades.tx.hash)) {
       return
     }
@@ -366,7 +366,7 @@ export const main = async () => {
       }
     })
     const optimalPaths: Array<[Path, bigint, bigint[], bigint]> = []
-    strategies.map(async strategy => {
+    strategies.forEach(strategy => {
       const possiblePaths = strategy.paths
 
       for (let path of possiblePaths) {
