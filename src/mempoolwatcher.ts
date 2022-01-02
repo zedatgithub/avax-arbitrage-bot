@@ -14,13 +14,37 @@ interface TradeEvents {
   }>
 }
 
+
 export async function watchForTrades(emit: (v: TradeEvents) => void) {
+  let knownSet = new Set<string>()
+  let knownList: string[] = []
+  let knownSetTimestamp = new Map<string, number>()
   const wsProvider = new ethers.providers.WebSocketProvider(config.providerUrl)
   const httpProvider = new ethers.providers.JsonRpcProvider(config.providerUrlHTTP)
 
-  wsProvider.on("pending", async (hash: string) => {
-    const tx = await wsProvider.getTransaction(hash)
-    const start = Date.now()
+  const wsProviderPublic = new ethers.providers.WebSocketProvider(
+    "wss://api.avax.network/ext/bc/C/ws"
+  )
+  const httpProviderPublic = new ethers.providers.JsonRpcProvider(
+    "https://api.avax.network/ext/bc/C/rpc"
+  )
+  
+  const process = (
+    provider: ethers.providers.JsonRpcProvider
+  ) => async (hash: string) => {
+    if (knownSet.has(hash)) {
+      return
+    }
+    knownSetTimestamp.set(hash, Date.now())
+    knownSet.add(hash)
+    knownList.push(hash)
+
+    // only remember the last 1k elements, and resize if we go above
+    if (knownList.length > 1024) {
+      knownSet = new Set<string>(knownList.slice(knownList.length - 64))
+      knownList = []
+    }
+    const tx = await provider.getTransaction(hash)
     try {
       const trace = await httpProvider.send("debug_traceCall", [{
         "from": tx.from,
@@ -43,5 +67,7 @@ export async function watchForTrades(emit: (v: TradeEvents) => void) {
     } catch (e) {
       // console.log(e)
     }
-  })
+  }
+  wsProvider.on("pending", process(httpProvider))
+  wsProviderPublic.on("pending", process(httpProviderPublic))
 }

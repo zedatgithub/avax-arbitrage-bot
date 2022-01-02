@@ -267,8 +267,6 @@ export const main = async () => {
     pool.reserve1 = BigInt('0x' + data.slice(2 + 64, 2 + 64 + 64))
   }
   console.log("Done")
-
-  let lockedPaths = new Set<Path>()
   provider.on({
     topics: ["0x1c411e9a96e071241c2f21f7726b17ae89e3cab4c78be50e062b03a9fffbbad1"]
   }, e => {
@@ -282,6 +280,7 @@ export const main = async () => {
   })
 
   const trader = TraderNew__factory.connect(traderAddress, publicSigner).connect(publicSigner)
+  const traderSigned = TraderNew__factory.connect(traderAddress, signer).connect(signer)
 
   let nonce = await signer.getTransactionCount()
 
@@ -295,6 +294,51 @@ export const main = async () => {
     block = block_
     baseGasPrice = await signer.getGasPrice()
   })
+
+  const executeTrade = async (
+    trades,
+    [bestTradePath, inputAmount, outputs, profit]: [Path, bigint, bigint[], bigint]
+  ) => {
+    const pools = bestTradePath.map(p => p.pool.id)
+    const reserves: bigint[] = bestTradePath.map(i => i.pool.reserve0 * i.pool.reserve1)
+    try {
+
+      console.log("Executing " + printPath(bestTradePath))
+      console.log("Expected profit " + ethers.utils.formatEther(profit))
+
+      // Submit trade to multiple nodes
+      traderSigned.arbTradeFlash(
+        inputAmount,
+        outputs,
+        pools,
+        reserves,
+        bestTradePath[bestTradePath.length - 1].swapTo.id,
+        {
+          maxPriorityFeePerGas: ethers.utils.parseUnits("10", 9),
+          nonce: nonce++,
+          gasLimit: 300000,
+        }
+      )
+
+      const tx = await trader.arbTradeFlash(
+        inputAmount,
+        outputs,
+        pools,
+        reserves,
+        bestTradePath[bestTradePath.length - 1].swapTo.id,
+        {
+          maxPriorityFeePerGas: ethers.utils.parseUnits("10", 9),
+          nonce: nonce++,
+          gasLimit: 300000,
+        }
+      )
+      console.log("Depending on " + trades.tx.hash)
+      console.log("Our hash: " + tx.hash)
+    } catch (e) {
+      console.log(e)
+      console.log(printPath(bestTradePath) + " failed")
+    }
+  }
 
   watchForTrades(trades => {
     gp = baseGasPrice.toBigInt() + maxPrioFee
@@ -316,15 +360,11 @@ export const main = async () => {
         reserve1: BigInt(t.reserve1),
       }
     })
-
+    
     strategies.map(async strategy => {
       const possiblePaths = strategy.paths
-      let optimalPaths: [Path, bigint, bigint[], bigint][] = []
 
       for (let path of possiblePaths) {
-        if (lockedPaths.has(path)) {
-          continue
-        }
         const optimal = getOptimalAmount(path, overrides)
 
         if (optimal == null || optimal < 0n) {
@@ -336,44 +376,8 @@ export const main = async () => {
         if (profit < minProfit) {
           continue
         }
-        optimalPaths.push([path, optimal, output, profit])
-        break
+        executeTrade(trades, [path, optimal, output, profit])
       }
-
-      if (optimalPaths.length == 0) {
-        return
-      }
-
-      optimalPaths = optimalPaths.sort((l, r) => Number(r[3] - l[3]))
-      console.log("Executing trades");
-
-      await Promise.all(optimalPaths.map(async ([bestTradePath, inputAmount, outputs, profit]) => {
-        const pools = bestTradePath.map(p => p.pool.id)
-        const reserves: bigint[] = bestTradePath.map(i => i.pool.reserve0 * i.pool.reserve1)
-        try {
-
-          console.log("Executing " + printPath(bestTradePath))
-          console.log("Expected profit " + ethers.utils.formatEther(profit))
-
-          const tx = await trader.arbTradeFlash(
-            inputAmount,
-            outputs,
-            pools,
-            reserves,
-            bestTradePath[bestTradePath.length - 1].swapTo.id,
-            {
-              maxPriorityFeePerGas: ethers.utils.parseUnits("10", 9),
-              nonce: nonce++,
-              gasLimit: 300000,
-            }
-          )
-          console.log("Depending on " + trades.tx.hash)
-          console.log("Our hash: " + tx.hash)
-        } catch (e) {
-          console.log(e)
-          console.log(printPath(bestTradePath) + " failed")
-        }
-      }))
     })
   })
 }
