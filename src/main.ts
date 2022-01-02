@@ -354,8 +354,11 @@ export const main = async () => {
             pools,
             reserves,
             bestTradePath[bestTradePath.length - 1].swapTo.id,
-            {
+            trades.tx.maxPriorityFeePerGas == null ? {
               gasPrice: trades.tx.gasPrice,
+              nonce: nonce++,
+              gasLimit: 300000,
+            } :  {
               maxPriorityFeePerGas: trades.tx.maxPriorityFeePerGas,
               nonce: nonce++,
               gasLimit: 300000,
