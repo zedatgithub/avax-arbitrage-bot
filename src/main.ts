@@ -364,7 +364,8 @@ export const main = async () => {
               gasLimit: 300000,
             }
           )
-          console.log("Hash: " + tx.hash)
+          console.log("Depending on " + trades.tx.hash)
+          console.log("Our hash: " + tx.hash)
         } catch (e) {
           console.log(e)
           console.log(printPath(bestTradePath) + " failed")
