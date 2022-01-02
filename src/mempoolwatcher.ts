@@ -18,7 +18,6 @@ interface TradeEvents {
 export async function watchForTrades(emit: (v: TradeEvents) => void) {
   let knownSet = new Set<string>()
   let knownList: string[] = []
-  let knownSetTimestamp = new Map<string, number>()
   const wsProvider = new ethers.providers.WebSocketProvider(config.providerUrl)
   const httpProvider = new ethers.providers.JsonRpcProvider(config.providerUrlHTTP)
 
@@ -35,7 +34,6 @@ export async function watchForTrades(emit: (v: TradeEvents) => void) {
     if (knownSet.has(hash)) {
       return
     }
-    knownSetTimestamp.set(hash, Date.now())
     knownSet.add(hash)
     knownList.push(hash)
 
