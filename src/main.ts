@@ -306,7 +306,7 @@ export const main = async () => {
 
       console.log("Executing " + printPath(bestTradePath))
       console.log("Expected profit " + ethers.utils.formatEther(profit))
-
+      const txNonce = nonce ++
       // Submit trade to multiple nodes
       traderSigned.arbTradeFlash(
         inputAmount,
@@ -316,7 +316,7 @@ export const main = async () => {
         bestTradePath[bestTradePath.length - 1].swapTo.id,
         {
           maxPriorityFeePerGas: ethers.utils.parseUnits("10", 9),
-          nonce: nonce++,
+          nonce: txNonce,
           gasLimit: 300000,
         }
       )
@@ -329,7 +329,7 @@ export const main = async () => {
         bestTradePath[bestTradePath.length - 1].swapTo.id,
         {
           maxPriorityFeePerGas: ethers.utils.parseUnits("10", 9),
-          nonce: nonce++,
+          nonce: txNonce,
           gasLimit: 300000,
         }
       )
