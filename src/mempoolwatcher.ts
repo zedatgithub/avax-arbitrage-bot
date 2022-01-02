@@ -36,7 +36,6 @@ export async function watchForTrades(emit: (v: TradeEvents) => void) {
       if (trace.failed || trace.trades.length === 0) {
         return
       }
-      console.log(Date.now() - start)
       emit({
         tx,
         trades: trace.trades
