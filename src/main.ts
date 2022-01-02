@@ -237,7 +237,14 @@ export const main = async () => {
     { chainId: 43114, name: "Avalanche" }
   )
 
+  const publicProvider = new ethers.providers.JsonRpcProvider(
+    "https://api.avax.network/ext/bc/C/rpc",
+    { chainId: 43114, name: "Avalanche" }
+  )
+
   const signer = new ethers.Wallet(Buffer.from(process.env.PRIVATE_KEY.slice(2), 'hex')).connect(provider)
+
+  const publicSigner = new ethers.Wallet(Buffer.from(process.env.PRIVATE_KEY.slice(2), 'hex')).connect(publicProvider)
 
   const multicallContract = new ethers.Contract(
     config.multicall,
@@ -274,7 +281,7 @@ export const main = async () => {
     pool.reserve1 = BigInt('0x' + e.data.slice(2 + 64))
   })
 
-  const trader = TraderNew__factory.connect(traderAddress, provider).connect(signer)
+  const trader = TraderNew__factory.connect(traderAddress, publicSigner).connect(publicSigner)
 
   let nonce = await signer.getTransactionCount()
 
