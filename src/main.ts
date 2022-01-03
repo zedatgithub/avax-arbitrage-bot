@@ -286,7 +286,7 @@ export const main = async () => {
   let nonce = await signer.getTransactionCount()
 
   let baseGasPrice = await signer.getGasPrice()
-  let maxPrioFee = ethers.utils.parseUnits("18", 9).toBigInt()
+  let maxPrioFee = ethers.utils.parseUnits("1", 9).toBigInt()
   let gp = baseGasPrice.toBigInt() + maxPrioFee
 
   let previous = null
@@ -315,7 +315,7 @@ export const main = async () => {
         reserves,
         bestTradePath[bestTradePath.length - 1].swapTo.id,
         {
-          maxPriorityFeePerGas: ethers.utils.parseUnits("10", 9),
+          maxPriorityFeePerGas: ethers.utils.parseUnits("1", 9),
           nonce: txNonce,
           gasLimit: 300000,
         }
@@ -328,8 +328,8 @@ export const main = async () => {
         reserves,
         bestTradePath[bestTradePath.length - 1].swapTo.id,
         {
-          maxPriorityFeePerGas: ethers.utils.parseUnits("10", 9),
           nonce: txNonce,
+          maxPriorityFeePerGas: ethers.utils.parseUnits("1", 9),
           gasLimit: 300000,
         }
       )
